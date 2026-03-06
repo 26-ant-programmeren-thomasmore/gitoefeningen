@@ -5,9 +5,10 @@
 | -----	| 
 
 * Je bouwt een history op van je source code:
-  * **Wat** is aangepast in de code door **wie** en **wanneer** en **waarom**
-  * Je kan teruggaan naar een vorige versie (van voor een bepaalde aanpassing). 
-  * bvb om te kijken waarom die versie nog wel werkt en de laatste versie niet meer
+  * dit is een aanpassing voor verschil fetch en pull
+    * **Wat** is aangepast in de code door **wie** en **wanneer** en **waarom**
+    * Je kan teruggaan naar een vorige versie (van voor een bepaalde aanpassing). 
+    * bvb om te kijken waarom die versie nog wel werkt en de laatste versie niet meer
 * Je deelt je code aanpassingen met je team
   * Je werkt op een **lokale** versie
   * Als je klaar bent met een aanpassing **commit** je
