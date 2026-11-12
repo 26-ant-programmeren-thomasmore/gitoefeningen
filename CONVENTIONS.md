@@ -66,4 +66,5 @@ Dit document definieert de bindende standaarden voor alle Markdown-bestanden bin
 ---
 
 ## 7. Regeleinden (Line Endings)
-* **Unix LF:** Alle bestanden moeten worden opgeslagen met Unix LF (`\n`) regeleinden, nooit met Windows CRLF (`\r\n`).
+* **Shellscripts (`.sh`):** Moeten verplicht worden opgeslagen met **Unix LF (`\n`)** regeleinden. CRLF breekt bash-scripts in Git Bash (`\r: command not found`).
+* **Markdown-bestanden (`.md`):** Zowel Windows CRLF (`\r\n`) als Unix LF (`\n`) zijn toegestaan. Converteer bestaande `.md`-bestanden niet onnodig om git-diff ruis te voorkomen.

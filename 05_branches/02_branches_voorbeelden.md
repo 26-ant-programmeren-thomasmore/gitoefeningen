@@ -1,4 +1,4 @@
-# Branches voorbeelden
+# Branches Voorbeelden
 
 * In deze repo vind je verschillende branches
 * Bekijk eerst welke branches er zijn op Github: 

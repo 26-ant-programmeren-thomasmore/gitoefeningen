@@ -23,7 +23,7 @@
 ```
 Merge branch 'master' of https://github.com/verapeeters-thomasmore/test
 ```
-* Je krijgt de mogelijkheid om deze message aan te passen in de default editor ([zie installatie Git](../01_getting_started/02_installeer_git.md)).
+* Je krijgt de mogelijkheid om deze message aan te passen in de default editor (zie [Installeer Git](../01_getting_started/02_installeer_git.md)).
 
 ## Changes in dezelfde file op dezelfde lijnen:
 * in dit geval kan git zelf niet beslissen wat het resultaat moet zijn

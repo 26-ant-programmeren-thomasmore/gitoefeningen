@@ -25,4 +25,6 @@
 | touch	|  | 	Creeer file en/of update access-datum |
 | find | 	dir /b/s | 	Zoek files die aan bepaalde comdities voldoen |
 | grep	| find	| Find tekst in files |
-| history|  | 		Toon laatste commando’s | 
+| history|  | 		Toon laatste commando’s |
+
+---

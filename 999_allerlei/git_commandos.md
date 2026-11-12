@@ -26,5 +26,6 @@
 | git branch  |  welke branches bestaan in local repo | 
 | git branch -r |  welke branches bestaan in remote repo | 
 | git branch -a | alle branches (local en remote) | 
-| git checkout \<NAAM VAN DE BRANCH> | checkout: maak een branch actief | 
+| git checkout \<NAAM VAN DE BRANCH> | checkout: maak een branch actief |
 
+---

@@ -1,4 +1,4 @@
-﻿# Tips
+# Tips
 
 * **Tip**: Maak ergens een basis directory waaronder je al je programmeer projecten zet.
   * Bvb (windows): “c:/Projects” of “c:/Users/<MIJNUSERNAME>/Projects”

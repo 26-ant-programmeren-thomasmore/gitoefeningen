@@ -1,4 +1,3 @@
-
 # Wat is Git? 
 
 | Git is een versie controle systeem (of source controle systeem). |

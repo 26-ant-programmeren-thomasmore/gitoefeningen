@@ -1,4 +1,4 @@
-# Hoe code sharen tussen 2 computers 
+# Hoe code sharen tussen 2 computers? 
 
 ## Situatie 
 * Op school werk je op je laptop.
