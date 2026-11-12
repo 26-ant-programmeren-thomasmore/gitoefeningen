@@ -13,7 +13,7 @@
 
 ## Hoe zie je dat er een conflict is? 
 * Als je in IntelliJ een pull doet die een conflict veroorzaakt krijg je een duidelijke boodschap:
-![img.png](images/pull_with_conflict.png)
+![img.png](../images/04_collaboration_tool/pull_with_conflict.png)
 * We hebben hier 1 file met een conflict: 03_conflicten.md
 * Noot: je kan ook een merge conflict krijgen als je een merge doet van 2 branches. Hierover later meer.  
 * Dus je kan een merge van 2 versies hebben omwille van: 
@@ -28,7 +28,7 @@
 * Noot: Je moet de conflicten oplossen voor elke file waarin een conflict zit.
 
 ## Wat zien we in het Merge venster?  
-![img.png](images/merge_window.png)
+![img.png](../images/04_collaboration_tool/merge_window.png)
 * Links: je eigen versie
 * Rechts: de versie die je collega gepusht had
 * In het midden: het resultaat
@@ -45,22 +45,22 @@
 * In het IntelliJ merge tool moet je voor allebei de versies (links en rechts) aangeven of je dit wil houden of niet  
 * In dit voorbeeld kies ik om ze allebei te houden
 * Ik kies eerst de linkse versie 
-![img.png](images/conflict_resolve_choose_left.png)
+![img.png](../images/04_collaboration_tool/conflict_resolve_choose_left.png)
 
 
 * Deze change wordt dan toegepast in het middelste stuk (Result)
-![img.png](images/conflict_resolve_accept_left.png)
+![img.png](../images/04_collaboration_tool/conflict_resolve_accept_left.png)
 
 
 * Ik kies dus ook de rechtse versie
-![img.png](images/conflict_resolve_choose_right.png)
+![img.png](../images/04_collaboration_tool/conflict_resolve_choose_right.png)
 
 
 * Deze change wordt ook toegepast in het middelste stuk (Result)
-![img.png](images/conflict_resolve_accept_right.png)
+![img.png](../images/04_collaboration_tool/conflict_resolve_accept_right.png)
   
 * If check nog even het resultaat: 
-![img.png](images/conflict_resolve_check_result.png)
+![img.png](../images/04_collaboration_tool/conflict_resolve_check_result.png)
   
 
 * **Ik pas de tekst in het middelste venster nog aan tot ik het resultaat goed vind** 
@@ -69,18 +69,18 @@
 * In git log zie ik de nieuwe commit. De commit-message is "Merge remote-tracking branch 'origin/main'"
 * Je ziet ook dat er vanaf mijn nieuwe commit nu 2 paden naar beneden lopen die de aparte gemergde commits bevatten 
 
-![img.png](images/conflict_log.png)
+![img.png](../images/04_collaboration_tool/conflict_log.png)
 
 * Belangrijk: Test steeds of alles nog werkt na een merge 
 
 ## Wat gebeurt er als je het conflict negeert 
 * Dan zie je deze popup:
 
-![img.png](images/ignore_conflict.png)
+![img.png](../images/04_collaboration_tool/ignore_conflict.png)
 
 * als je die ook negeert:
 
-![img.png](images/keep_ignoring_conflict.png)
+![img.png](../images/04_collaboration_tool/keep_ignoring_conflict.png)
 
 * Je kan nu niet meer committen of pullen tot je het conflict oplost!  
 

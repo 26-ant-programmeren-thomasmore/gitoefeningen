@@ -7,7 +7,7 @@
 * Je kan nu de **commits** van je local repo **pushen** naar de remote repo
 * let op: dit kan alleen als je rechten hebt op de remote repo
   * dus als je mijn repo gecloned hebt dan kan je dit niet doen
-  * je kan wel mijn remote repo [forken](06_fork.md) op Github
+  * je kan wel mijn remote repo [Fork](06_fork.md) op Github
 
 
 ### in Git Bash:
@@ -26,14 +26,14 @@ git push
 ### in IntelliJ:
 * gebruik het push symbool in de toolbar 
 
-  ![img.png](images/push.png)
+  ![img.png](../images/03_github/push.png)
 * of: <CTRL>-<SHIFT>-k
 * of: in het git-tool-window onderaan selecteer je de huidige branch, rechts-klik en kies Push 
 * Je ziet nu je files op je remote repo op Github
 
 
 ### Oefening
-* op je eigen repo: [connecteer met github](04_connect_existing_local_repo.md) als dat nog niet gedaan is 
+* op je eigen repo: [Bestaand locaal project op Github zetten](04_connect_existing_local_repo.md) als dat nog niet gedaan is 
 * pas een file aan, add, commit, push
 * check op github of je de files daar ziet 
 
@@ -57,7 +57,7 @@ git pull
 
 
 ### Oefening
-* op je eigen repo: [connecteer met github](04_connect_existing_local_repo.md) als dat nog niet gedaan is 
+* op je eigen repo: [Bestaand locaal project op Github zetten](04_connect_existing_local_repo.md) als dat nog niet gedaan is 
 * clone deze repo een 2e keer op je laptop!!! Dus dezelfde url maar een andere folder
 * Open ook dit nieuwe project in IntelliJ - je ziet dat de code identiek is als in je andere project  
 * **IntelliJ-1** 
@@ -82,7 +82,7 @@ git pull
 * Tip: Als je ziet dat een branch alleen Remote bestaat en niet Local, dan kan je deze lokaal binnentrekken met "Checkout"
 
 ### Oefening met Fetch 
-* op je eigen repo: [connecteer met github](04_connect_existing_local_repo.md) als dat nog niet gedaan is
+* op je eigen repo: [Bestaand locaal project op Github zetten](04_connect_existing_local_repo.md) als dat nog niet gedaan is
 * clone deze repo een 2e keer op je laptop!!! Dus dezelfde url maar een andere folder
 * Open ook dit nieuwe project in IntelliJ - je ziet dat de code identiek is als in je andere project
 * **IntelliJ-1**

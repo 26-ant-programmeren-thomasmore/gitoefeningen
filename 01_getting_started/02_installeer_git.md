@@ -1,7 +1,7 @@
 # Installeer Git 
 
 ## Check eerst of je git al hebt
-* [open een cmd](../999_allerlei/linux_en_dos_commandos.md) 
+* [Linux en dos commando's](../999_allerlei/linux_en_dos_commandos.md) 
 * typ: git --version 
 * Als dit niet lukt of als de versie veel ouder is dan de huidige versie van git dan moet je nu git installeren 
 
@@ -10,7 +10,7 @@
   * https://git-scm.com/downloads 
   * In de wizard:
     * Select Components >  Selecteer Windows Explorer integration (default opties):  
-    ![img.png](images/git_setup.png)
+    ![img.png](../images/01_getting_started/git_setup.png)
       
     * Default editor: kies bvb notepad++ (of notepad)
     * Laat verder alle defaults staan

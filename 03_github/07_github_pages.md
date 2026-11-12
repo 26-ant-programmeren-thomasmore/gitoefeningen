@@ -1,7 +1,7 @@
 # Github Pages
 
 * Een simpele (statische) website kan je ook hosten in Github.
-* Noot: Dit is alleen mogelijk met een [PRO account](02_github_account.md)  
+* Noot: Dit is alleen mogelijk met een [Github Account](02_github_account.md)  
 * Pas in je github repository de volgende Setting aan:
   * Menu > Settings in your repository: GitHub Pages: “use main branch”
   * noot: gebruik hier de default branch in je repo (kan ook master zijn)   

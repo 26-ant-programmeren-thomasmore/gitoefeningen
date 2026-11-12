@@ -1,4 +1,4 @@
-# Git Init: Je eerste git repository met IntelliJ 
+# Je eerste git repository met IntelliJ 
 
 ## Open een project in IntelliJ 
 
@@ -8,7 +8,7 @@
 * Noot: VCS betekent "Version Control System"
 
 Dit project is nog niet geinitialiseerd voor git: 
-![git_init_intellij_not_a_repo.png](images/git_init_intellij_not_a_repo.png)
+![git_init_intellij_not_a_repo.png](../images/01_getting_started/git_init_intellij_not_a_repo.png)
 
 Als je deze directory bekijkt in de file explorer dan zie je dat er geen .git subdir is. 
 
@@ -19,25 +19,25 @@ Als je deze directory bekijkt in de file explorer dan zie je dat er geen .git su
 * met andere woorden: we maken van onze directory een **git repository**
 * IntelliJ > menubar > VCS > Create Git repository > Kies de directory van dit project in IntelliJ 
 
-![img.png](images/git_init_intellij.png)
+![img.png](../images/01_getting_started/git_init_intellij.png)
 
 
 IntelliJ ziet dat je project nu geinitialiseerd is voor git. 
 Dit verandert wel veel voor je project in de user interface van IntelliJ: 
-![img.png](images/git_init_intellij_result.png)
+![img.png](../images/01_getting_started/git_init_intellij_result.png)
 
-* Je ziet in het menu bovenaan dat de “**branch main**” actief is. In het eerste deel van deze bundel werken we met 1 branch
+* Je ziet in het menu bovenaan dat de �**branch main**� actief is. In het eerste deel van deze bundel werken we met 1 branch
 (main of master). Hierover later meer.
-* noot: je default branch heet normaal gezien main als je de configuratie goed gedaan hebt na de [installatie van git](02_installeer_git.md)   
-* In het "Git Tool Window" onderaan zie je: “No changes committed.”: dit betekent dat we nog geen commits gedaan hebben.
-* We noemen je directory de “**working directory**”.
+* noot: je default branch heet normaal gezien main als je de configuratie goed gedaan hebt na de [Installeer Git](02_installeer_git.md)   
+* In het "Git Tool Window" onderaan zie je: �No changes committed.�: dit betekent dat we nog geen commits gedaan hebben.
+* We noemen je directory de �**working directory**�.
 * Een **commit** is een **snapshot** van de working directory: daar zit alle info in waarmee je terug kan gaan naar de situatie op het moment van de commit. 
 
 | je hebt nu een lokale git repository | 
 |--------------------------------------| 
 
 ## .gitignore file 
-* Als je met IntelliJ werkt moet je asap een [.gitignore](08_gitignore.md) file toevoegen aan je project.
+* Als je met IntelliJ werkt moet je asap een [GitIgnore file](08_gitignore.md) file toevoegen aan je project.
 * Maak in de root van je project een nieuwe file met naam .gitignore. 
 * Git komt vragen of je deze file wil toevoegen in git, dat is OK. 
 * Open deze file en voeg zeker deze 2 lijnen toe:
@@ -59,11 +59,11 @@ Dit verandert wel veel voor je project in de user interface van IntelliJ:
   Als Git komt vragen of je de files ook aan git wil toevoegen en je zegt OK dan wordt deze file onmiddellijk getracked.   
 * IntelliJ toont untracked files in het rood en new added files in het groen.
 
-  ![git_init_intellij_tracked_untracked.png](images/git_init_intellij_tracked_untracked.png)
+  ![git_init_intellij_tracked_untracked.png](../images/01_getting_started/git_init_intellij_tracked_untracked.png)
 
 * Open het Commit window (commit-knopje in de linker marge - of <CTRL>-k)
   
-  ![git_init_intellij_commit.png](images/git_init_intellij_commit.png)
+  ![git_init_intellij_commit.png](../images/01_getting_started/git_init_intellij_commit.png)
 
 * selecteer alle files. Typ een commit message. Klik op de Commit button. 
 * Hierdoor gebeurt er achter de schermen een "**git add**" en een "**git commit**
@@ -72,15 +72,15 @@ Dit verandert wel veel voor je project in de user interface van IntelliJ:
 repository zit.
   
   
-  ![git_init_intellij_log.png](images/git_init_intellij_log.png)
+  ![git_init_intellij_log.png](../images/01_getting_started/git_init_intellij_log.png)
 
   
-* De “**commithash**” is een unieke id voor de commit van 40 characters lang
+* De �**commithash**� is een unieke id voor de commit van 40 characters lang
   * Bvb: ab4cbe9baa470609fb277047a26db4a7eaaa3c52.  
   * In IntelliJ zie je enkel de **eerste 8 chars** hiervan.  
 
 ## Oefening 
-* Check telkens voor‐en‐na de situatie in het “git commit window” en in het “git log window”.
+* Check telkens voor-en-na de situatie in het �git commit window� en in het �git log window�.
 * Maak een aanpassing in de file en commit
 * Voeg een tweede nieuwe file toe en commit
 * Maak een aanpassing in de tweede file en commit

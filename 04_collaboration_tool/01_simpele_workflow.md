@@ -1,10 +1,10 @@
 # Simpele Workflow
 
 ## Clone
-* Iedereen in het team heeft een locale [clone](../01_getting_started/06_git_basis_met_intellij.md) van de repo die op github staat 
+* Iedereen in het team heeft een locale [Je eerste git repository met IntelliJ](../01_getting_started/06_git_basis_met_intellij.md) van de repo die op github staat 
 * Jullie hebben dus alemaal dezelfde code in je local repo
 * We zeggen dat iedereen "**in sync**" is met de Github repository 
-![clone.png](images/clone.png)
+![clone.png](../images/04_collaboration_tool/clone.png)
 
 ## Local changes en commit
 * Als je code aanpast dan heb je “local changes” tegenover je local repo.
@@ -12,7 +12,7 @@
 * Hiervan is nog niets zichtbaar voor je collega’s.
 * Je kan wel zelf je lokale history (of logboek) zien (git log).
 
-![commit.png](images/commit.png)
+![commit.png](../images/04_collaboration_tool/commit.png)
 
 # Push 
 * Als je pusht worden je lokale commits naar Github gestuurd waar je collega’s die
@@ -22,14 +22,14 @@ commit‐messages.
 * Je collega’s zien nog niks hiervan op hun eigen local repo, ze moeten naar de
 Github website gaan om jouw aanpassingen te kunnen zien.
   
-![push.png](images/push.png)
+![push.png](../images/04_collaboration_tool/push.png)
   
 # Pull 
 * Je collega’s kunnen nu een pull doen. 
 * Dit wil zeggen dat jouw aanpassingen nu ook  zichtbaar worden in hun lokale repository.
 * We zeggen dat jouw changes **gemerged** worden in de local repo van je collega.
 
-![pull.png](images/pull.png)
+![pull.png](../images/04_collaboration_tool/pull.png)
 
 # Pull on a clean directory!
 
@@ -55,19 +55,19 @@ Github website gaan om jouw aanpassingen te kunnen zien.
 * **Luc wil zijn code pushen naar Github.** 
 * Maar: Jan heeft al een paar commits gepusht.
 
-![img.png](images/push_next_commit.png)
+![img.png](../images/04_collaboration_tool/push_next_commit.png)
 
 * Luc doet eerst een pull
 * Dus in de local repo van Luc zien we nu ook de aanpassingen van Jan (gemerged met die van Luc) 
 
 
-![img.png](images/push_commit_pull.png)
+![img.png](../images/04_collaboration_tool/push_commit_pull.png)
 
 * Luc test of deze gemergede versie van de code nog steeds werkt.
 * Alles werkt nog 
 * Luc doet een push, zodat ook zijn aanpassingen zichtbaar zijn in Github.
 
-![img.png](images/img.png)
+![img.png](../images/04_collaboration_tool/img.png)
 
 
 * Noot: Als je op school werkt met een **laptop** en thuis op een **desktop** dan kan je dit push en

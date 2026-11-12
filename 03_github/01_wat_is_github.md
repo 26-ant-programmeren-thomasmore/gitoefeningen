@@ -12,7 +12,7 @@ teamleden.
   * Iedereen in je team heeft een lokale git repository die gelinkt is met deze Github repository.
   * Iedereen houdt zijn code in sync met de repository op Github.  
 
-![github_team_sync.png](images/github_team_sync.png)
+![github_team_sync.png](../images/03_github/github_team_sync.png)
 
 * Zie ook: https://guides.github.com/ 
 

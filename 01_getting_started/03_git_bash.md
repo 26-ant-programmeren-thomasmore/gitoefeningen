@@ -16,13 +16,13 @@
 directory
   * Dit is een linux‐achtige CLI. De meeste Linux command’s hebben een
     tegenhanger in een gewone cmd‐dox‐box. Een paar nuttige commando’s vind
-    je in de [appendix](../999_allerlei/linux_en_dos_commandos.md) achteraan in dit document.
+    je in de [Linux en dos commando's](../999_allerlei/linux_en_dos_commandos.md) achteraan in dit document.
   * je kan de  git-commando's ook uitvoeren in het Terminal tool-window in IntelliJ of in een dos-cmd-box.    
 * Mac user kunnen gewoon een Term gebruiken ipv Git Bash     
 
-![git bash](images/git_bash.png)
+![git bash](../images/01_getting_started/git_bash.png)
 
-![this_is_git.png](images/this_is_git.png)
+![this_is_git.png](../images/01_getting_started/this_is_git.png)
 
 
 ---

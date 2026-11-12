@@ -1,6 +1,6 @@
 # Branches 
 
-| Zorg ervoor dat je eerst de [basisbegrippen](../01_getting_started/01_wat_is_git.md) begrijpt| 
+| Zorg ervoor dat je eerst de [Wat is Git?](../01_getting_started/01_wat_is_git.md) begrijpt| 
 |---|
 
 ## Wat is een branch? 
@@ -24,7 +24,7 @@
   * als je nu de default branch (main of master) actief maakt (checkout)
       * dan zie je ook hier de code die gecommit is voor feature1 (en ouder)
       * in git log zie je nu ook de commits van feature1   
-* dezelfde merge-principes gelden als bij [pull-push](../04_collaboration_tool/02_merges.md)
+* dezelfde merge-principes gelden als bij [Merges](../04_collaboration_tool/02_merges.md)
 * let op: maak een branch per feature, niet per persoon
 
 | branch features, not persons |

@@ -36,12 +36,12 @@ git log --all --graph --decorate
 * Je kan zien waar je HEAD staat met “git status”.
 * In IntelliJ is de HEAD aangeduid met een **geel labeltje**
 
-![checkout_head.png](images/checkout_head.png)
+![checkout_head.png](../images/02_time_travel/checkout_head.png)
 
 * Als je een **commit** doet, dan gaat HEAD naar deze nieuwe commit (want dat is je nieuwe
 “point of view” na je commit).
 
-![checkout_head_na_commit.png](images/checkout_head_na_commit.png)
+![checkout_head_na_commit.png](../images/02_time_travel/checkout_head_na_commit.png)
 
 * Na de “git checkout \<commithash>” zie je in git bash deze boodschap:
 
@@ -61,7 +61,7 @@ HEAD detached at 001961a
 * Want een commit wordt altijd toegevoegd na HEAD, maar… daar staat nu al iets… (the place
 of the “next commit” is “already taken”).
 
-![checkout_head_detached.png](images/checkout_head_detached.png)
+![checkout_head_detached.png](../images/02_time_travel/checkout_head_detached.png)
 
 ## In IntelliJ: 
 * je ziet rechts onderaan welk het actieve viewpoint is. 
@@ -73,7 +73,7 @@ of the “next commit” is “already taken”).
 * Doe een checkout van een branch (dus niet van een commit): bvb van de default branch main (of master)
 * HEAD zal dan opnieuw wijzen naar de laatste commit van deze branch. En dus kan je terug committen.
 
-![checkout_head_na_commit.png](images/checkout_head_na_commit.png)
+![checkout_head_na_commit.png](../images/02_time_travel/checkout_head_na_commit.png)
 
 ### in Git Bash:
 ```
@@ -90,7 +90,7 @@ git checkout main
 * rechts-klik en selecteer "checkout branch..." (dus niet de commit-hash)
 * noot: de bovenste commit van een branch is voldoende - je ziet dan een branch-labeltje bij deze commit in de history lijst
 
-![checkout_branch_intellij.png](images/checkout_branch_intellij.png)
+![checkout_branch_intellij.png](../images/02_time_travel/checkout_branch_intellij.png)
 
 
 ## Oefening

@@ -18,7 +18,7 @@
   * je doet regelmatig een **pull** 
     * zodat je alle aanpassingen van je team ook ziet 
 
-![img.png](images/wat_is_git.png)
+![img.png](../images/01_getting_started/wat_is_git.png)
 
 * Waarvoor gebruiken wij git?
   * Q1: Project Management: 

@@ -27,13 +27,13 @@ Merge branch 'master' of https://github.com/verapeeters-thomasmore/test
 
 ## Changes in dezelfde file op dezelfde lijnen:
 * in dit geval kan git zelf niet beslissen wat het resultaat moet zijn
-* we noemen dit een [**conflict**](03_conflicten.md) 
+* we noemen dit een [Conflicten](03_conflicten.md) 
 * je moet zelf nakijken op welke lijnen er een conflict is en voor elke lijn **kiezen**:  
   * wil je jouw aanpassingen
   * of de aanpasingen van de andere persoon
   * of allebei de aanpassingen  
   * of moet je nog extra code aanpassingen doen om dit te laten werken    
-* Hierover meer in de [volgende sectie](03_conflicten.md)
+* Hierover meer in de [Conflicten](03_conflicten.md)
 
 ## Oefening 
 * spreek af met 1 of meer mensen uit je klas en clone dezelfde repo op github

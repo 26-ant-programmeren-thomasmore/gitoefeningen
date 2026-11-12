@@ -2,11 +2,11 @@
 
 ## Status van je project
 
-![git_init_3_states.png](images/git_init_3_states.png)
+![git_init_3_states.png](../images/01_getting_started/git_init_3_states.png)
 
 ## De Git workflow 
 
-![git_init_workflow.png](images/git_init_workflow.png)
+![git_init_workflow.png](../images/01_getting_started/git_init_workflow.png)
 
 
 ---

@@ -25,7 +25,7 @@
 * [Github Account](03_github/02_github_account.md)
 * [Connecteer met bestaande repo op Github](03_github/03_connect_with_existing_github_repo.md)
 * [Bestaand locaal project op Github zetten](03_github/04_connect_existing_local_repo.md)
-* [Push](03_github/05_push_and_pull)
+* [Push en Pull](03_github/05_push_and_pull.md)
 * [Fork](03_github/06_fork.md)
 * [Github pages](03_github/07_github_pages.md)
 * [Clone en disconnect](03_github/08_clone_and_disconnect.md)
@@ -42,7 +42,7 @@
 
 ## Verder ook nog
 
-* [Wat is md](999_allerlei/wat_is_md.md)
+* [Wat is md?](999_allerlei/wat_is_md.md)
 * [Linux en dos commando's](999_allerlei/linux_en_dos_commandos.md)
 * [meest gebruikte git commando's](999_allerlei/git_commandos.md)
 * [tools](999_allerlei/tools.md)
