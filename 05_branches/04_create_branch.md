@@ -8,7 +8,7 @@
   * Dus: check eerst welke branch actief is en/of waar je HEAD staat
   * in Git Bash gebruik je "git status" om te kijken waar HEAD is    
   * in IntelliJ in de Git Log tab is HEAD gemarkeerd met een geel labeltje
-![img.png](images/intellij_head.png)
+![img.png](../images/05_branches/intellij_head.png)
     
 ## In IntelliJ: 
 ### No-nonsense 
@@ -84,7 +84,7 @@ git push -u origin <NAAM VAN DE NIEUWE BRANCH>
   * bekijk de history (log) in IntelliJ en in GitHub
 
 
-![img.png](images/new_branches.png)
+![img.png](../images/05_branches/new_branches.png)
 
 ---
 [prev](03_branches_local_repo.md)

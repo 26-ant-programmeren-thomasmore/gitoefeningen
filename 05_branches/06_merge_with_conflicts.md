@@ -23,30 +23,30 @@
 ---
 * status voor de merge (met een aantal commits gecollapsed voor de duidelijkheid)
 
-![img.png](images/conflicts_before_merge.png)
+![img.png](../images/05_branches/conflicts_before_merge.png)
 
 ---
 * conflict!!! 
 * Kies hier altijd "Merge" 
-![img.png](images/conflicts_dialog.png)
+![img.png](../images/05_branches/conflicts_dialog.png)
 
 ---
 * [Conflict solving](../04_collaboration_tool/03_conflicten.md) in IntelliJ 
 * Kies voor elke change links **en** rechts of je deze change wil houden of niet 
 * Je kan ook nog het resultaat editeren
 
-![img.png](images/conflicts_solving.png)
+![img.png](../images/05_branches/conflicts_solving.png)
 
 ---
 * Dit is bij mij het resultaat
 * Als je tevreden bent klik dan op "Apply" om de merge voor deze file te eindigen 
 
-![img.png](images/conflicts_result.png)
+![img.png](../images/05_branches/conflicts_result.png)
 
 ---
 
 * History na de merge (met sommige delen van de branches gecollapsed)
-![img.png](images/conflicts_history_after_merge.png)
+![img.png](../images/05_branches/conflicts_history_after_merge.png)
   
 
 ---
