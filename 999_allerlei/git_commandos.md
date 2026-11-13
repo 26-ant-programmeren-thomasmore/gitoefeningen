@@ -1,4 +1,4 @@
-# Meest gebruikte git commando's
+## Meest gebruikte git commando's
 
 
 | Git commando|wat doet het |

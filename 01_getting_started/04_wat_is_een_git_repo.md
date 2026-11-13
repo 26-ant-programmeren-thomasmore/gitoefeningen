@@ -1,4 +1,4 @@
-# Wat is een Git Repo? 
+## Wat is een Git Repo? 
 
 Om een idee te krijgen wat een repo is kijken we even rond in deze **Git Repo [gitoefeningen](../README.md) op GitHub**. 
 * een git repo bevat gewoonlijk [Wat is md?](../999_allerlei/wat_is_md.md) (code is altijd plain text)
@@ -8,7 +8,7 @@ Om een idee te krijgen wat een repo is kijken we even rond in deze **Git Repo [g
 * in de **[GitIgnore file](08_gitignore.md)** file staat welke files en directories nooit aan deze repo mogen toegevoegd worden  
 * in Github  kan je gemakkelijk **zoeken** in alle files van een repo (Search of jump to...)
   
-## history
+### history
 * je ziet de **[History](../02_time_travel/01_history.md)** van de repo in Github:
 
 ![history_in_github.png](../images/01_getting_started/history_in_github.png)  
@@ -21,7 +21,7 @@ Om een idee te krijgen wat een repo is kijken we even rond in deze **Git Repo [g
 * Als je hier op de "Browse files" knop klikt dan zie je de ganse file structuur terug zoals hij toen was 
 
 
-## Branches
+### Branches
 * je ziet ook verschillende **[Branches](../05_branches/01_branches.md)** 
 * noot: bekijk dit pas als je vlot kan werken met de basis begrippen (init, status, add, commit, push, clone) 
 

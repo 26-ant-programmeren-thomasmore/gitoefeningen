@@ -1,6 +1,6 @@
-# Conflicten
+## Conflicten
 
-## Wat is een conflict?
+### Wat is een conflict?
 * Bij een merge van 2 versies krijg je een conflict als in de 2 versies een aanpassing gedaan is in dezelfde file en op dezelfde lijn. 
 * git kan dan niet zelf beslissen wat er moet gebeuren 
 * je moet zelf nakijken en **kiezen**:
@@ -11,7 +11,7 @@
 * Voor wat volgt raad ik wel aan om IntelliJ te gebruiken, of een andere tool waarmee je visuele merges kan doen.
 
 
-## Hoe zie je dat er een conflict is? 
+### Hoe zie je dat er een conflict is? 
 * Als je in IntelliJ een pull doet die een conflict veroorzaakt krijg je een duidelijke boodschap:
 ![img.png](../images/04_collaboration_tool/pull_with_conflict.png)
 * We hebben hier 1 file met een conflict: 03_conflicten.md
@@ -20,14 +20,14 @@
   * pull
   * merge van branches
 
-## Wat doe je bij een conflict 
+### Wat doe je bij een conflict 
 * Kies zeker de optie **Merge**! 
 * Als je "Accept Yours" kiest gooi je de changes die je collega gepushed heeft weg! (is meestal niet wat je wil) 
 * Als je "Accept Theirs" kiest gooi je je eigen changes weg! (is meestal niet wat je wil)
 * IntelliJ opent het **Merge venster**. 
 * Noot: Je moet de conflicten oplossen voor elke file waarin een conflict zit.
 
-## Wat zien we in het Merge venster?  
+### Wat zien we in het Merge venster?  
 ![img.png](../images/04_collaboration_tool/merge_window.png)
 * Links: je eigen versie
 * Rechts: de versie die je collega gepusht had
@@ -37,7 +37,7 @@
 * Rechts bovenaan zie je dat erin dit voorbeeld 1 conflict is    
 * Met de up/down pijltjes links bovenaan kan je naar de vorige/volgende change gaan (als er meerdere changes zijn) 
 
-## Wat doe je in het Merge venster? 
+### Wat doe je in het Merge venster? 
 
 * Meestal is het een goed idee om te starten met "Apply non-conflicting changes te kiezen (All)" (als er ook non-conflicting changes zijn - groene changes dus)
 * Ga naar het eerste conflict 
@@ -73,7 +73,7 @@
 
 * Belangrijk: Test steeds of alles nog werkt na een merge 
 
-## Wat gebeurt er als je het conflict negeert 
+### Wat gebeurt er als je het conflict negeert 
 * Dan zie je deze popup:
 
 ![img.png](../images/04_collaboration_tool/ignore_conflict.png)
@@ -84,7 +84,7 @@
 
 * Je kan nu niet meer committen of pullen tot je het conflict oplost!  
 
-## Oefening 
+### Oefening 
 * spreek af met 1 of meer mensen uit je klas en clone dezelfde repo op github
 * bekijk welke problemen je tegenkomt en los samen op
 * changes in dezelfde file op dezelfde lijn 
@@ -95,7 +95,7 @@
   * persoon 1: pull
   * bekijk het resultaat in github en op je local repo
   
-## Oefening op je eentje 
+### Oefening op je eentje 
 * je kan dit eventueel ook op je eentje doen (maar dat is niet simpeler)
 * clone dezelfde Github-repo 2 keer op je lokale machine 
 * Je kan in elke clone files aanpassen en committen

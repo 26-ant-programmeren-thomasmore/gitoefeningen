@@ -1,6 +1,6 @@
-# Push en Pull
+## Push en Pull
 
-## Push 
+### Push 
 
 * Je local repo is nu geconnecteerd met een remote repo op Github
 * push = van waar je aan het werken bent NAAR GitHub 
@@ -10,7 +10,7 @@
   * je kan wel mijn remote repo [Fork](06_fork.md) op Github
 
 
-### in Git Bash:
+#### in Git Bash:
 * Noot: de eerste keer dat je push doet voor een (branch in een) remote repo moet je extra parameters meegeven:
 ```bash
 git push -u origin main 
@@ -23,7 +23,7 @@ git push
 ```
 
 
-### in IntelliJ:
+#### in IntelliJ:
 * gebruik het push symbool in de toolbar 
 
   ![img.png](../images/03_github/push.png)
@@ -32,18 +32,18 @@ git push
 * Je ziet nu je files op je remote repo op Github
 
 
-### Oefening
+#### Oefening
 * op je eigen repo: [Bestaand locaal project op Github zetten](04_connect_existing_local_repo.md) als dat nog niet gedaan is 
 * pas een file aan, add, commit, push
 * check op github of je de files daar ziet 
 
 
-## Pull
+### Pull
 
 * pull = van GitHub NAAR waar je aan het werken bent  
 * resultaat: je ziet de aanpassingen in je code die gepushed waren naar GitHub 
 
-### in Git Bash:
+#### in Git Bash:
 * de repo (en deze branch) is al geconnecteerd met GitHub
 ```bash
 git pull  
@@ -51,12 +51,12 @@ git pull
 * Je ziet nu de aanpassingen in de files op je lokale repo 
 
 
-### in IntelliJ:
+#### in IntelliJ:
 * IntelliJ noemt dit "Update" in plaats van "Pull" (jammer genoeg)
 * Je ziet nu de aanpassingen in de files op je lokale repo in IntelliJ 
 
 
-### Oefening
+#### Oefening
 * op je eigen repo: [Bestaand locaal project op Github zetten](04_connect_existing_local_repo.md) als dat nog niet gedaan is 
 * clone deze repo een 2e keer op je laptop!!! Dus dezelfde url maar een andere folder
 * Open ook dit nieuwe project in IntelliJ - je ziet dat de code identiek is als in je andere project  
@@ -72,7 +72,7 @@ git pull
   * check: de git-hi/story is WEL veranderd
 * Je kan deze oefening ook met 2 personen (op 2 laptops) doen ipv met 2 repositories op 1 laptop
 
-## Fetch 
+### Fetch 
 * merk op dat push en pull altijd slechts op 1 branch werken 
 * In IntelliJ is het een goede gewoonte om dit in 2 stappen te doen: 
   * doe eerst "Fetch all remotes". 
@@ -81,7 +81,7 @@ git pull
     * de code aanpassingen worden nu actief gemaakt 
 * Tip: Als je ziet dat een branch alleen Remote bestaat en niet Local, dan kan je deze lokaal binnentrekken met "Checkout"
 
-### Oefening met Fetch 
+#### Oefening met Fetch 
 * op je eigen repo: [Bestaand locaal project op Github zetten](04_connect_existing_local_repo.md) als dat nog niet gedaan is
 * clone deze repo een 2e keer op je laptop!!! Dus dezelfde url maar een andere folder
 * Open ook dit nieuwe project in IntelliJ - je ziet dat de code identiek is als in je andere project

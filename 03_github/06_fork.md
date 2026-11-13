@@ -1,4 +1,4 @@
-# Fork 
+## Fork 
 
 * Op een repository op Github kan je alleen pushen als de owner je rechten gegeven heeft om dat te doen. 
 * je kan wel elke repo op Github **forken** 
@@ -10,7 +10,7 @@
 
 * zie https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/working-with-forks 
 
-## Oefening
+### Oefening
 * fork deze repo (gitoefeningen) op github
 * [Connecteer met bestaande repo op Github](03_connect_with_existing_github_repo.md) de **geforkte repo**
 * experimenteer: pas de files aan, commit, **push** en bekijke het resultaat op je geforkte repo op Github 

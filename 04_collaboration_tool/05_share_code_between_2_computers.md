@@ -1,18 +1,18 @@
-# Hoe code sharen tussen 2 computers? 
+## Hoe code sharen tussen 2 computers? 
 
-## Situatie 
+### Situatie 
 * Op school werk je op je laptop.
 * Thuis werk je op een desktop. 
 * Je wil wel verderwerken aan dezelfde oefeningen/codebase. 
 
-## Gebruik Git en GitHub
+### Gebruik Git en GitHub
 * zet altijd de laatste versie van de code op GitHub voor je op je andere machine begint te werken (commit en push). 
 * Op je andere machine doe je altijd eerst een fetch en een update
 * check of je echt de laatste versie van de code voor je hebt! 
 * pas daarna begin je te werken aan je code
 * **op deze manier vermijd je merges en conflicten**
 
-## Voorbeeld 
+### Voorbeeld 
 * je start een project op je laptop op school met IntelliJ  
   * [Je eerste git repository met IntelliJ](../01_getting_started/06_git_basis_met_intellij.md) van dit project
   * commit al je aanpassingen 
@@ -39,7 +39,7 @@
   * etc 
   
 
-## Gebruik NOOIT een shared drive 
+### Gebruik NOOIT een shared drive 
 * **Je mag nooit een codeer-project op een shared drive zetten!!!!** 
 * Vroeg of laat kom je in de problemen als je dat doet.
 * shared drive = bvb oneDrive, googleDrive, dropbox, ... 

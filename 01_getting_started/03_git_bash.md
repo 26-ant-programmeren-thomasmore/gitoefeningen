@@ -1,4 +1,4 @@
-# Git Bash
+## Git Bash
 
 | CLI = Command Line Interface |
 | --- |

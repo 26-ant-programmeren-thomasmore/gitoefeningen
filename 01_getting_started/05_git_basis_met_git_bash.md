@@ -1,7 +1,7 @@
-# Je eerste git repository
+## Je eerste git repository
 
 
-## Maak een lokale directory (folder) 
+### Maak een lokale directory (folder) 
 * Waar maak je deze directory? Zie [Tips](../999_allerlei/tips.md)
 * Maak een nieuwe directory (folder)
   * bvb in de file-explorer 
@@ -27,7 +27,7 @@
 
 ![git_init_not_a_repo.png](../images/01_getting_started/git_init_not_a_repo.png)
 
-## initialiseer deze directory voor git
+### initialiseer deze directory voor git
 ```bash
 git init
  git status
@@ -50,7 +50,7 @@ git init
 | je hebt nu een lokale repository | 
 |---| 
 
-## Commits toevoegen aan je lokale repository 
+### Commits toevoegen aan je lokale repository 
 
 * Er zit nog niets in je repository. Geen files. Geen history.
 * files in je working directory zijn ofwel:
@@ -104,7 +104,7 @@ cd gittest
 
 
 
-## Oefening 
+### Oefening 
 * Check telkens voor-en-na de situatie met "git status" en "git log".
 * Maak een aanpassing in de file en commit
 * Voeg een tweede nieuwe file toe en commit

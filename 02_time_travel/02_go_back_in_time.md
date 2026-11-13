@@ -1,11 +1,11 @@
-# Go back in time 
+## Go back in time 
 
-## Git checkout 
+### Git checkout 
 * Met het git commando "**git checkout**" kan je rondspringen in je commit history.
 * Je gaat dan terug naar de status van je working directory zoals die was op het moment van die commit.
 * let op: dit kan je niet doen als je working dir dirty is. Zorg er dus voor dat alle aangepaste files eerst gecommit zijn (of rollbacked) 
 
-### In Git Bash:
+#### In Git Bash:
 ```bash
   cd gittest
   git status
@@ -22,13 +22,13 @@
 git log --all --graph --decorate
 ```
 
-### In Intellij: 
+#### In Intellij: 
 * selecteer een commit 
 * rechts-klik en selecteer "checkout Revision \<commit hash>" 
 * let op: dit kan je niet doen als je working dir dirty is. Zorg er dus voor dat alle aangepaste files eerst gecommit zijn (of rollbacked)
 * Bekijk de inhoud van je working directory (de files)
 
-## Wat is HEAD? 
+### Wat is HEAD? 
 
 * De **HEAD** is je huidige gezichtspunt op je repository (point of view).
 * met "git checkout" spring je naar een ander viewpoint. De HEAD revision wijst dan naar een andere commit. 
@@ -62,19 +62,19 @@ of the “next commit” is “already taken”).
 
 ![checkout_head_detached.png](../images/02_time_travel/checkout_head_detached.png)
 
-## In IntelliJ: 
+### In IntelliJ: 
 * je ziet rechts onderaan welk het actieve viewpoint is. 
 * Als dit een **commit hash** is dan ben je in DETACHED HEAD state (en dus kan je niet committen) 
 * als dit een **branch** is (main of master of een andere branch) dan kan je wel committen 
 * noot: in de history lijst (Log tab in Git tool window onderaan) zie je ook welke commits in je actieve viewpoint zitten (die zijn blauw gekleurd)
 
-## Hoe geraak je uit een detached head state? 
+### Hoe geraak je uit een detached head state? 
 * Doe een checkout van een branch (dus niet van een commit): bvb van de default branch main (of master)
 * HEAD zal dan opnieuw wijzen naar de laatste commit van deze branch. En dus kan je terug committen.
 
 ![checkout_head_na_commit.png](../images/02_time_travel/checkout_head_na_commit.png)
 
-### in Git Bash:
+#### in Git Bash:
 ```bash
 git checkout main
 ```
@@ -83,7 +83,7 @@ git checkout main
 * Check altijd welke branch actief is met "git status"
 
 
-### in Intellij: 
+#### in Intellij: 
 * Check altijd welke branch actief is rechts onderaan in de marge  
 * selecteer de bovenste commit
 * rechts-klik en selecteer "checkout branch..." (dus niet de commit-hash)
@@ -92,7 +92,7 @@ git checkout main
 ![checkout_branch_intellij.png](../images/02_time_travel/checkout_branch_intellij.png)
 
 
-## Oefening
+### Oefening
 * doe een checkout van een commit 
 * bekijk de inhoud van de files 
 * doe een checkout van een andere commit 

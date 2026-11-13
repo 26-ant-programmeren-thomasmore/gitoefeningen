@@ -11,23 +11,24 @@ Dit document definieert de bindende standaarden voor alle Markdown-bestanden bin
 
 ---
 
-## 2. Koppenstructuur (H1)
-* **Start op regel 1:** Elk document moet verplicht direct op regel 1 beginnen met precies één H1-kop:
+## 2. Koppenstructuur (H2)
+* **Start op regel 1:** Elk cursusdocument in de submappen moet verplicht direct op regel 1 beginnen met precies één H2-kop:
   ```markdown
-  # <Titel>
+  ## <Titel>
   ```
-* **Geen witregels vóór H1:** Er mogen geen lege regels of spaties voorafgaan aan het `#`-teken op regel 1.
-* **Subkoppen:** Gebruik voor tussenkoppen uitsluitend `##` (H2) en `###` (H3).
+  *(Opmerking: De overkoepelende H1 `# <Sectie>` wordt tijdens de compilatie door `combine_files.sh` gegenereerd op basis van de mapnaam).*
+* **Geen witregels vóór H2:** Er mogen geen lege regels of spaties voorafgaan aan de `##`-tekens op regel 1.
+* **Subkoppen:** Gebruik voor tussenkoppen binnen de pagina `###` (H3) en `####` (H4).
 
 ---
 
-## 3. Interne Links en Uitlijning met H1
+## 3. Interne Links en Uitlijning met H2
 * **Linkformaat:** Elke interne link naar een ander markdown-document moet een relatief pad bevatten inclusief `.md`-extensie:
   ```markdown
   [Titel](relatief/pad/bestand.md)
   ```
-* **Exacte 1-op-1 match met H1:** De linktekst `[Titel]` moet **exact** overeenkomen met de `# <Titel>` van het doelbestand (hoofdletters, leestekens en spaties).
-  * *Voorbeeld:* Als het doelbestand begint met `# Installeer Git`, dan moet de link `[Installeer Git](01_getting_started/02_installeer_git.md)` zijn.
+* **Exacte 1-op-1 match met H2:** De linktekst `[Titel]` moet **exact** overeenkomen met de `## <Titel>` van het doelbestand (hoofdletters, leestekens en spaties).
+  * *Voorbeeld:* Als het doelbestand begint met `## Installeer Git`, dan moet de link `[Installeer Git](01_getting_started/02_installeer_git.md)` zijn.
   * *Reden:* Hierdoor kan het samenvoegscript `combine_files.sh` de interne anker-slug (`#installeer-git`) direct afleiden uit de linktekst zelf, zonder externe bestandslookups.
 
 ---

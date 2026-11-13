@@ -1,4 +1,4 @@
-# Wat is plain text? 
+## Wat is plain text? 
 
 * wat is **plain text**? 
   * een text file die **alleen leesbare letters** bevat

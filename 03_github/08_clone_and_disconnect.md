@@ -1,4 +1,4 @@
-# Clone en disconnect 
+## Clone en disconnect 
 
 * Voor sommige programmeer projecten zullen we je vragen om 
   * een repository uit Github te clonen, 
@@ -26,7 +26,7 @@
     * Push op die nieuwe repository alvast de branch die je net binnenhaalde. Check dit in
       github.
 
-## Oefening
+### Oefening
 * Maak een test-repository aan op GitHub.
 * Clone deze via IntelliJ naar een nieuwe lokale map (Stap 1).
 * Koppel de remote los via **Manage Remotes** (Stap 3).

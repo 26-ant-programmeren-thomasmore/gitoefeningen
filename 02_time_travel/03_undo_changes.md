@@ -1,12 +1,12 @@
-# Undo changes 
+## Undo changes 
 
-## Undo unstaged change: git checkout 
+### Undo unstaged change: git checkout 
 
 * Dus: je hebt een aanpassing gedaan die je niet meer wil. 
 * Je wil terug naar de situatie van de laatste commit.
 
 
-### In Git Bash
+#### In Git Bash
 * doe een checkout van de laatste commit:
 ```bash
     cd gittest
@@ -18,17 +18,17 @@
     git status
 ```
 
-### In IntelliJ 
+#### In IntelliJ 
 * open het commit-window (klik op Commit in de linker marge)
 * rechts-klik op "default change list"
 * kies "Rollback" 
 
-## Undo staged change: git reset HEAD 
+### Undo staged change: git reset HEAD 
 
 * Dus: je hebt een aanpassing gedaan en deze gestaged (git add .)
 * Je wil terug naar de situatie van de laatste commit.
 
-### In Git Bash
+#### In Git Bash
 * gebruik het commando "**git reset HEAD**"
 ```bash
     cd gittest
@@ -41,19 +41,19 @@
     git status
 ```
 
-### In IntelliJ
+#### In IntelliJ
 * in IntelliJ zie je niet echt het verschil tussen staged en niet-staged (dat gebeurt achter de schermen door in het commit window de files te selecteren)
 * open het commit-window (klik op Commit in de linker marge)
 * rechts-klik op "default change list"
 * kies "Rollback"
 
 
-## Undo last commit
+### Undo last commit
 
 * Dus: je hebt een aanpassing gedaan en deze gecommit
 * Je wil terug naar de situatie van de **vorige commit**.
 
-### In Git Bash
+#### In Git Bash
 * gebruik het commando "**git reset HEAD~**"
 ```bash
     cd gittest
@@ -70,12 +70,12 @@
     git status
 ```
 
-### In IntelliJ
+#### In IntelliJ
 * Ga naar de history (de "Log" tab in het Git Tool window onderaan)
 * selecteer de vorige commit 
 * rechts-klik en kies "Reset Current Branch to here..."
 
-## Oefening
+### Oefening
 * doe een aanpassing en rollback 
 * doe een aanpassing, commit en rollback 
 

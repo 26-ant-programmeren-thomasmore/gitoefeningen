@@ -1,8 +1,8 @@
-# Bestaand locaal project op Github zetten
+## Bestaand locaal project op Github zetten
 
 * Je hebt een **lokaal project waar al files inzitten** en je wil dit op Github zetten
 
-## maak local repo
+### maak local repo
 
 * maak eerst een local repo van je project met "git init" 
   * in [Je eerste git repository](../01_getting_started/05_git_basis_met_git_bash.md) 
@@ -14,7 +14,7 @@
 
 * commit de files in je local repo  
 
-## maak een lege repo op Github 
+### maak een lege repo op Github 
 * Maak je eigen repository op Github:
 * Ga naar Repositories
 * Klik de New button
@@ -25,11 +25,11 @@
 * Noot: als de repo op Github al files bevat is het moeilijker om die te connecteren met je bestaande local repo    
 * Klik de “Create repository” button
 
-## connecteer  
+### connecteer  
 * connecteer je local repo met de nieuwe repo op Github
 * check eerst de [GitIgnore file](../01_getting_started/08_gitignore.md) op je local repo!
 
-### in Git Bash:
+#### in Git Bash:
 ```bash
 git remote -v
 git remote add origin <URL-VAN-GITHUB-REPO>
@@ -41,11 +41,11 @@ git remote -v
 * Noot: het is mogelijk om meerdere remote repo's te connecteren met een repo. Maar dat is buiten de scope van deze oefeningen. 
 * Noot:**origin** is de naam die per conventie gebruikt wordt voor de eerste remote die je connecteert 
 
-### in IntelliJ: 
+#### in IntelliJ: 
 * Menu > VCS > Share Project on Github... 
 
 
-## Oefening
+### Oefening
 * maak een project op je computer en connecteer dit met een nieuwe repo op github 
 
 ---

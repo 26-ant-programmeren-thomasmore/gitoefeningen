@@ -1,12 +1,12 @@
-# Simpele Workflow
+## Simpele Workflow
 
-## Clone
+### Clone
 * Iedereen in het team heeft een locale [Je eerste git repository met IntelliJ](../01_getting_started/06_git_basis_met_intellij.md) van de repo die op github staat 
 * Jullie hebben dus alemaal dezelfde code in je local repo
 * We zeggen dat iedereen "**in sync**" is met de Github repository 
 ![clone.png](../images/04_collaboration_tool/clone.png)
 
-## Local changes en commit
+### Local changes en commit
 * Als je code aanpast dan heb je “local changes” tegenover je local repo.
 * Als je commit worden de local changes toegevoegd aan je local repo.
 * Hiervan is nog niets zichtbaar voor je collega’s.
@@ -14,7 +14,7 @@
 
 ![commit.png](../images/04_collaboration_tool/commit.png)
 
-# Push 
+## Push 
 * Als je pusht worden je lokale commits naar Github gestuurd waar je collega’s die
 kunnen zien.
 * Op Github zie je nu de nieuwe versie van je code, en ook al je individuele commits met hun
@@ -24,14 +24,14 @@ Github website gaan om jouw aanpassingen te kunnen zien.
   
 ![push.png](../images/04_collaboration_tool/push.png)
   
-# Pull 
+## Pull 
 * Je collega’s kunnen nu een pull doen. 
 * Dit wil zeggen dat jouw aanpassingen nu ook  zichtbaar worden in hun lokale repository.
 * We zeggen dat jouw changes **gemerged** worden in de local repo van je collega.
 
 ![pull.png](../images/04_collaboration_tool/pull.png)
 
-# Pull on a clean directory!
+## Pull on a clean directory!
 
 | Pull on a clean directory! |
 |---|
@@ -42,7 +42,7 @@ Github website gaan om jouw aanpassingen te kunnen zien.
 |Commit before you pull!|
 |---|
 
-# Pull before you push!  
+## Pull before you push!  
 
 * Waarom: je collega's hebben ook al aanpassingen gedaan... 
 
@@ -73,7 +73,7 @@ Github website gaan om jouw aanpassingen te kunnen zien.
 * Noot: Als je op school werkt met een **laptop** en thuis op een **desktop** dan kan je dit push en
 pull systeem ook gebruiken om de code tussen je laptop en je desktop te syncroniseren.
 
-## Samenvatting: Waarom altijd een pull voor een push? 
+### Samenvatting: Waarom altijd een pull voor een push? 
 * De versie op de **gemeenschappelijke repo** moet altijd **stabiel** zijn (stable = geen errors).
 * Daarom is de eerste stap altijd: **test** lokaal of je eigen code aanpassingen correct zijn.
 * Maar… het is altijd mogelijk dat jouw aanpassingen niet meer werken als ze samenkomen
@@ -86,7 +86,7 @@ verantwoordelijkheid om dat te **fixen**.
 * Noot: in ons geval is de gemeenschappelijke branch de default branch (main of master) – hierover later meer.
 
 
-## Oefening 
+### Oefening 
 * spreek af met 1 of meer mensen uit je klas en clone dezelfde repo op github
 * bekijk welke problemen je tegenkomt en los samen op
 * simpele push en pull   
@@ -95,7 +95,7 @@ verantwoordelijkheid om dat te **fixen**.
   * persoon 2: maak local changes, commit, pull en push
   * persoon 1: pull
 
-## Oefening op je eentje 
+### Oefening op je eentje 
 * je kan dit eventueel ook op je eentje doen (maar dat is niet simpeler)
 * clone dezelfde Github-repo 2 keer op je lokale machine 
 * Je kan in elke clone files aanpassen en committen

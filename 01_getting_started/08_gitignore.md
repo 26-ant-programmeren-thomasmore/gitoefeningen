@@ -1,4 +1,4 @@
-# GitIgnore file
+## GitIgnore file
 
 | .gitignore file: welke files en directories mogen nooit aan deze repo mogen toegevoegd worden |
 | ---| 

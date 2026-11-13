@@ -1,4 +1,4 @@
-# Wat is Github? 
+## Wat is Github? 
 
 |GitHub is a Git repository hosting service|
 |---|

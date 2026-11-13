@@ -1,6 +1,6 @@
-# Je eerste git repository met IntelliJ 
+## Je eerste git repository met IntelliJ 
 
-## Open een project in IntelliJ 
+### Open een project in IntelliJ 
 
 * open een project in IntelliJ  
 * als git nog niet geinitialiseerd is op deze directory dan zie je in IntelliJ in de menu niet "Git" maar wel "VCS". 
@@ -12,7 +12,7 @@ Dit project is nog niet geinitialiseerd voor git:
 
 Als je deze directory bekijkt in de file explorer dan zie je dat er geen .git subdir is. 
 
-## Initialiseer dit project voor git 
+### Initialiseer dit project voor git 
 
 * noot: doe deze stap alleen als je project nog niet geinitialiseerd is voor git. 
 * We zorgen er nu voor dat we git kunnen gebruiken in deze directory.
@@ -36,7 +36,7 @@ Dit verandert wel veel voor je project in de user interface van IntelliJ:
 | je hebt nu een lokale git repository | 
 |--------------------------------------| 
 
-## .gitignore file 
+### .gitignore file 
 * Als je met IntelliJ werkt moet je asap een [GitIgnore file](08_gitignore.md) file toevoegen aan je project.
 * Maak in de root van je project een nieuwe file met naam .gitignore. 
 * Git komt vragen of je deze file wil toevoegen in git, dat is OK. 
@@ -48,7 +48,7 @@ Dit verandert wel veel voor je project in de user interface van IntelliJ:
 * Voor sommige soorten projecten voorziet IntelliJ zelf al een .gitignore file. Je moet wel altijd nog deze 2 lijnen toevoegen. 
 * Dit is nodig omdat we de IntelliJ configuratie zeker niet in git willen toevoegen
 
-## Commits toevoegen aan je lokale repository 
+### Commits toevoegen aan je lokale repository 
 
 * Er zit nog niets in je repository. Geen files (alleen .gitignore en .idea). Geen history.
 * files in je working directory zijn ofwel:
@@ -79,7 +79,7 @@ repository zit.
   * Bvb: ab4cbe9baa470609fb277047a26db4a7eaaa3c52.  
   * In IntelliJ zie je enkel de **eerste 8 chars** hiervan.  
 
-## Oefening 
+### Oefening 
 * Check telkens voor-en-na de situatie in het "git commit window" en in het "git log window".
 * Maak een aanpassing in de file en commit
 * Voeg een tweede nieuwe file toe en commit

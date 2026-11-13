@@ -1,16 +1,16 @@
-# Branches 
+## Branches 
 
 | Zorg ervoor dat je eerst de [Wat is Git?](../01_getting_started/01_wat_is_git.md) begrijpt| 
 |---|
 
-## Wat is een branch? 
+### Wat is een branch? 
 * Tot nu toe hebben we op 1 branch gewerkt: de default branch main (of master) 
 * Dat wil zeggen: een commit wordt toegevoegd bovenop deze default branch
 * Als je een nieuwe branch maakt en activeert (checkout)
   * dan worden commits toegevoegd bovenop deze nieuwe branch
   * je ziet deze commits dus niet meer in de default branch   
 
-## Hoe werken we met branches? 
+### Hoe werken we met branches? 
 * typisch werk je elke feature af op een branch.
   * als je de branch van **feature1** actief maakt (checkout)
       * dan zie je enkel de code die gecommit is voor feature1 (en ouder) 
@@ -30,7 +30,7 @@
 | branch features, not persons |
 |---|
 
-## Waarom werken we met branches?
+### Waarom werken we met branches?
 * werken met verschillende branches is iets complexer, maar geeft wel meer **flexibiliteit**
 * je houdt de default branch stabiel: 
   * hierop komen alleen de features die helemaal klaar zijn (en getest). 

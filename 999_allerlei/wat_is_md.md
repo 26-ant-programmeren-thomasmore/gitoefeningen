@@ -1,4 +1,4 @@
-# Wat is md? 
+## Wat is md? 
 * MD = Markdown
 * geformatteerde tekt maken in een [Wat is plain text?](wat_is_plain_text.md)
   * met behulp van leesbare letters brengen we een lichte vorm van formattering aan in een text.

@@ -1,10 +1,10 @@
-# Three States 
+## Three States 
 
-## Status van je project
+### Status van je project
 
 ![git_init_3_states.png](../images/01_getting_started/git_init_3_states.png)
 
-## De Git workflow 
+### De Git workflow 
 
 ![git_init_workflow.png](../images/01_getting_started/git_init_workflow.png)
 

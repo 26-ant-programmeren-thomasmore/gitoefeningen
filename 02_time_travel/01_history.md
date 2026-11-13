@@ -1,6 +1,6 @@
-# History 
+## History 
 
-## In Git Bash:
+### In Git Bash:
 *  met het command "git log" kan je al je commits bekijken
 ```bash
   cd gittest
@@ -43,7 +43,7 @@
     Er zijn nog veel meer navigatie mogelijkheden. Typ 'less --help'
 
 
-## In IntelliJ: 
+### In IntelliJ: 
 * In IntelliJ zie je de log van je repository in het Git Tool Window onderaan:
 
 ![history_log_in_intellij.png](../images/02_time_travel/history_log_in_intellij.png)
@@ -55,7 +55,7 @@
 * Als je aan de rechterkant op een file dubbel-klikt zie je de aanpassingen in deze file 
 * Als je meerdere commits aanklikt dan zie je de aanpassingen gedaan in al die commits 
 
-## Oefening 
+### Oefening 
 * bekijk de history van je project  
 * bekijk de verschillende commits 
 * wanneer en door wie is deze commit gedaan?

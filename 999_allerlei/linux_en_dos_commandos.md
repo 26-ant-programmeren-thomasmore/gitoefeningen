@@ -1,4 +1,4 @@
-# Linux en dos commando's
+## Linux en dos commando's
 
 * waarom Linux: 
   * in een git-bash kan je linux-achtige commando's gebruiken
