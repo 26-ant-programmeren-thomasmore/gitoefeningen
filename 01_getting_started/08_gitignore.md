@@ -40,7 +40,7 @@ committen.
     *.tar.gz
     *.rar
     hs_err_pid*
-    ```
+```
 
 | elk project moet een .gitignore file hebben |
 | ---| 
