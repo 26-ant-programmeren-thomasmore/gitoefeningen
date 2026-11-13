@@ -4,10 +4,9 @@
 | -----	| 
 
 * Je bouwt een history op van je source code:
-  * dit is een aanpassing voor verschil fetch en pull
-    * **Wat** is aangepast in de code door **wie** en **wanneer** en **waarom**
-    * Je kan teruggaan naar een vorige versie (van voor een bepaalde aanpassing). 
-    * bvb om te kijken waarom die versie nog wel werkt en de laatste versie niet meer
+  * **Wat** is aangepast in de code door **wie** en **wanneer** en **waarom**
+  * Je kan teruggaan naar een vorige versie (voor een bepaalde aanpassing gebeurd is). 
+  * bvb om te kijken waarom die versie nog wel werkt en de laatste versie niet meer
 * Je deelt je code aanpassingen met je team
   * Je werkt op een **lokale** versie
   * Als je klaar bent met een aanpassing **commit** je
@@ -33,6 +32,7 @@
     * Git en Github
     * Team
     * Workflow met branches per feature
+  * 2e jaar: alle programmeervakken
 
 * **Noot**: De meeste bedrijven werken met een versie controle systeem.
     * Git is tegenwoordig het meest gebruikte.
@@ -40,7 +40,6 @@
 
 
 * Zie ook
-  * https://webo.7wn.be/slides/01.03.version-control (presentatie van Lars De Richter)
   * https://learngitbranching.js.org
   * https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
   * https://www.youtube.com/watch?v=2sjqTHE0zok&feature=youtu.be

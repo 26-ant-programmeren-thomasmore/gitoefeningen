@@ -2,7 +2,7 @@
 
 * waarom Linux: 
   * in een git-bash kan je linux-achtige commando's gebruiken
-  * op mac-os en linux
+  * op mac-os en linux systemen 
   * leer werken op linux! Op servers staat dikwijls linux
     
 * waarom dos: 

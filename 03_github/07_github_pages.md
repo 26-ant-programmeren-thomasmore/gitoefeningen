@@ -1,4 +1,5 @@
 ## Github Pages
+**dit gaan we in deze opleiding niet gebruiken - deze oefening mag je overslaan**
 
 * Een simpele (statische) website kan je ook hosten in Github.
 * Noot: Dit is alleen mogelijk met een [Github Account](02_github_account.md)  

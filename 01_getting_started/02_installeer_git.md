@@ -1,9 +1,10 @@
 ## Installeer Git 
 
 ### Check eerst of je git al hebt
-* [Linux en dos commando's](../999_allerlei/linux_en_dos_commandos.md) 
+* open een cmd (windows) of terminal (mac) [Linux en dos commando's](../999_allerlei/linux_en_dos_commandos.md) 
 * typ: git --version 
-* Als dit niet lukt of als de versie veel ouder is dan de huidige versie van git dan moet je nu git installeren 
+* Als dit niet lukt of als de versie veel ouder is dan de huidige versie van git dan moet je nu git installeren
+* wat is de huidige versie? Check op https://git-scm.com/downloads 
 
 ### Download en installeer 
 * Windows: 
@@ -25,7 +26,7 @@
     `brew install git`
     
 ### Configureer git 
-* * In Git Bash (Windows) of terminal (Mac) typ je:
+* In Git Bash (Windows) of terminal (Mac) typ je:
 ```bash
 git config --global user.name "<jouw naam>"
 git config --global user.email <jouw e-mailadres>

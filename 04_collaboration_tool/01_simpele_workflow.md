@@ -102,6 +102,6 @@ verantwoordelijkheid om dat te **fixen**.
 * pull en push werkt dan op dezelfde manier als in een team 
 
 ---
-[prev](../03_github/07_github_pages.md)
+[prev](../03_github/09_clone_met_2_remotes.md)
 [next](02_merges.md)
 

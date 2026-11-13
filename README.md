@@ -2,9 +2,9 @@
 
 ## Doel van deze github repository
 
-* studenten maken hierop oefeningen
-* alle info en uitleg zit hierin
-* info en oefeningen is gestructureerd in git-branches
+* studenten maken oefeningen op deze repo
+* alle info en uitleg zit in de repo als md files 
+* info en oefeningen zijn gestructureerd in git-branches
 * Tip: installeer in Chrome de extension [markdown reader](https://md-reader.github.io/)
 
 ## Inhoud

@@ -3,7 +3,7 @@
 ### Git checkout 
 * Met het git commando "**git checkout**" kan je rondspringen in je commit history.
 * Je gaat dan terug naar de status van je working directory zoals die was op het moment van die commit.
-* let op: dit kan je niet doen als je working dir dirty is. Zorg er dus voor dat alle aangepaste files eerst gecommit zijn (of rollbacked) 
+* let op: dit kan je **niet doen als je working dir dirty is**. Zorg er dus voor dat alle aangepaste files eerst gecommit zijn (of rollbacked) 
 
 #### In Git Bash:
 ```bash
@@ -14,7 +14,7 @@
   git log
   ```
 
-* let op: dit kan je niet doen als je working dir dirty is. Zorg er dus voor dat alle aangepaste files eerst gecommit zijn (of rollbacked)
+* let op: checkout kan je niet doen als je working dir dirty is. Zorg er dus voor dat alle aangepaste files eerst gecommit zijn (of rollbacked)
 * Bekijk de inhoud van je working directory (de files) 
 * In de “git log” zie je nu alleen de commits tot en met de gekozen commit.
 * Met het volgende commando kan je alle commits zien zelfs al is de laatste commit niet in je viewpoint: 
@@ -43,6 +43,8 @@ git log --all --graph --decorate
 
 ![checkout_head_na_commit.png](../images/02_time_travel/checkout_head_na_commit.png)
 
+### Wat is DETACHED HEAD?
+
 * Na de “git checkout \<commithash>” zie je in git bash deze boodschap:
 ```text
 You are in 'detached HEAD' state. You can look around, make experimental changes
@@ -56,7 +58,7 @@ HEAD detached at 001961a
 ```
 
 * je bent in **DETACHED HEAD** state 
-* Dit betekent dat je geen commits kan doen.
+* **Dit betekent dat je geen commits kan doen**.
 * Want een commit wordt altijd toegevoegd na HEAD, maar… daar staat nu al iets… (the place
 of the “next commit” is “already taken”).
 
@@ -67,6 +69,7 @@ of the “next commit” is “already taken”).
 * Als dit een **commit hash** is dan ben je in DETACHED HEAD state (en dus kan je niet committen) 
 * als dit een **branch** is (main of master of een andere branch) dan kan je wel committen 
 * noot: in de history lijst (Log tab in Git tool window onderaan) zie je ook welke commits in je actieve viewpoint zitten (die zijn blauw gekleurd)
+* let op: in recente versies van IntelliJ wordt automatisch een nieuwe branch aangemaakt als je een commit doet in detached head state. Dit is heel verwarrend. 
 
 ### Hoe geraak je uit een detached head state? 
 * Doe een checkout van een branch (dus niet van een commit): bvb van de default branch main (of master)

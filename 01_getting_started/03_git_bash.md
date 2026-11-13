@@ -12,8 +12,8 @@
   * Later kan je GUI gebruiken - geen nodd, we zullen al heel snel met IntelliJ beginnen werken 
 
 * Open nu Git Bash.
-  * Tip: als je in de File Explorer rechts‐klikt kan je Git Bash openen in deze
-directory
+  * Tip: als je in de File Explorer rechts‐klikt kan je Git Bash openen **in deze
+directory**
   * Dit is een linux‐achtige CLI. De meeste Linux command’s hebben een
     tegenhanger in een gewone cmd‐dox‐box. Een paar nuttige commando’s vind
     je in de [Linux en dos commando's](../999_allerlei/linux_en_dos_commandos.md) achteraan in dit document.

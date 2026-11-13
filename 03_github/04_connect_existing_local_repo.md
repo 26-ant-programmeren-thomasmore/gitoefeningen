@@ -1,6 +1,6 @@
 ## Bestaand locaal project op Github zetten
 
-* Je hebt een **lokaal project waar al files inzitten** en je wil dit op Github zetten
+Je hebt een **lokaal project waar al files inzitten** en je wil dit op Github zetten
 
 ### maak local repo
 
@@ -42,7 +42,14 @@ git remote -v
 * Noot:**origin** is de naam die per conventie gebruikt wordt voor de eerste remote die je connecteert 
 
 #### in IntelliJ: 
+* Menu > Git > Manage Remotes...
+* kies + 
+* voeg een naam toe - volgens de conventie is dit "origin" (voor de eerste remote) 
+* voeg de url toe van de nieuwe lege remote repo 
+
+### super korte manier in IntelliJ
 * Menu > VCS > Share Project on Github... 
+* double-check of het project op Github private is 
 
 
 ### Oefening
@@ -50,4 +57,4 @@ git remote -v
 
 ---
 [prev](03_connect_with_existing_github_repo.md)
-[next](05_push_and_pull)
+[next](05_push_and_pull.md)

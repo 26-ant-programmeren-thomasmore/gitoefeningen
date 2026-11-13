@@ -1,6 +1,6 @@
 ## GitIgnore file
 
-| .gitignore file: welke files en directories mogen nooit aan deze repo mogen toegevoegd worden |
+| .gitignore file: welke files en directories mogen nooit aan deze repo toegevoegd worden |
 | ---| 
  
 
@@ -27,8 +27,8 @@ committen.
 * Example gitignore files: https://github.com/github/gitignore
 * Bvb een typische .gitignore file voor een **java** project voor een developer die met Jetbrains
 **Intellij** werkt:
-```gitignore
-.idea
+```.gitignore
+    .idea
     *.iml 
     *.class
     *.log

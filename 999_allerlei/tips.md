@@ -1,10 +1,12 @@
 ## Tips
 
-* **Tip**: Maak ergens een basis directory waaronder je al je programmeer projecten zet.
+* **Tip**: Maak ergens op je laptop een basis directory waaronder je al je programmeer projecten zet.
   * Bvb (windows): “c:/Projects” of “c:/Users/<MIJNUSERNAME>/Projects”
   * Bvb (mac): “/home/Projects”
-o Zet deze Projects directory zeker niet onder “Documents” of “Downloads” of
+  * Zet deze Projects directory zeker niet onder “Documents” of “Downloads” of
 “Program Files”.
+* **Tip**: zet nooit codeer projecten op een shared folder (zoals onedrive, googledrive, dropbox, ...). 
+Dit veroorzaakt sync problemen 
 * **Tip**: configureer je file explorer zodat je “hidden files” en “file extensions” altijd ziet.
 ![hidden_files_and_extensions.png](../images/999_allerlei/hidden_files_and_extensions.png)
   

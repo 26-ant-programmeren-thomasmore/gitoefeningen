@@ -1,4 +1,5 @@
 ## Fork 
+**dit gaan we in deze opleiding niet gebruiken - deze oefening mag je overslaan** 
 
 * Op een repository op Github kan je alleen pushen als de owner je rechten gegeven heeft om dat te doen. 
 * je kan wel elke repo op Github **forken** 

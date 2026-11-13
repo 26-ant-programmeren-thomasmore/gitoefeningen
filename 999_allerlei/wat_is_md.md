@@ -12,5 +12,6 @@
 * noot: het is niet de bedoeling dat je heel veel tijd spendeert aan de markdown syntax. Het is wel nuttig voor jezelf om hier iets van te weten.  
 * algemeen: https://en.wikipedia.org/wiki/Markdown
 * markdown in github: https://guides.github.com/features/mastering-markdown/
+* Tip: installeer in Chrome de extension [markdown reader](https://md-reader.github.io/)
 
 ---

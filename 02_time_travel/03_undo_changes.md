@@ -3,6 +3,7 @@
 ### Undo unstaged change: git checkout 
 
 * Dus: je hebt een aanpassing gedaan die je niet meer wil. 
+* Deze aanpassing is nog niet gecommit
 * Je wil terug naar de situatie van de laatste commit.
 
 
@@ -22,6 +23,7 @@
 * open het commit-window (klik op Commit in de linker marge)
 * rechts-klik op "default change list"
 * kies "Rollback" 
+* als je Unversioned File hebt moet je deze manueel deleten 
 
 ### Undo staged change: git reset HEAD 
 
@@ -46,7 +48,7 @@
 * open het commit-window (klik op Commit in de linker marge)
 * rechts-klik op "default change list"
 * kies "Rollback"
-
+* als je Unversioned File hebt moet je deze manueel deleten
 
 ### Undo last commit
 
@@ -74,10 +76,11 @@
 * Ga naar de history (de "Log" tab in het Git Tool window onderaan)
 * selecteer de vorige commit 
 * rechts-klik en kies "Reset Current Branch to here..."
+* Kies in de dialog de eerste optie "Soft". De situatie is dan terug exact zoals die was voor je commit. Je kan nu verder de files aanpassen (of rollbacken) 
 
 ### Oefening
 * doe een aanpassing en rollback 
-* doe een aanpassing, commit en rollback 
+* doe een aanpassing, commit en undo  
 
 ---
 [prev](02_go_back_in_time.md)

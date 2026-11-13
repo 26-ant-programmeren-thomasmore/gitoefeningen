@@ -37,7 +37,7 @@
 
 * Noot: na een aantal commits wordt de log lang. Heel lang.
   * Als de log langer is dan je bash-window zal het stoppen en zie je een :
-  * Nu kan je een <blank> tikken om verder te gaan en de rest van de log te zien
+  * Nu kan je een \<blank\> tikken om verder te gaan en de rest van de log te zien
   * Of je kan een 'q' tikken om te stoppen
   * Extra info: Git gebruikt het bash-commando 'less' om de log te tonen. 
     Er zijn nog veel meer navigatie mogelijkheden. Typ 'less --help'

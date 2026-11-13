@@ -2,7 +2,7 @@
 
 ### Open een project in IntelliJ 
 
-* open een project in IntelliJ  
+* open een project in IntelliJ  (bvb een java-oefening)
 * als git nog niet geinitialiseerd is op deze directory dan zie je in IntelliJ in de menu niet "Git" maar wel "VCS". 
   En in de toolbar zie je dan geen git symbolen.
 * Noot: VCS betekent "Version Control System"
@@ -10,7 +10,7 @@
 Dit project is nog niet geinitialiseerd voor git: 
 ![git_init_intellij_not_a_repo.png](../images/01_getting_started/git_init_intellij_not_a_repo.png)
 
-Als je deze directory bekijkt in de file explorer dan zie je dat er geen .git subdir is. 
+Als je deze directory bekijkt in de file explorer dan zie je dat er **geen** .git subdir is. 
 
 ### Initialiseer dit project voor git 
 
@@ -37,36 +37,44 @@ Dit verandert wel veel voor je project in de user interface van IntelliJ:
 |--------------------------------------| 
 
 ### .gitignore file 
-* Als je met IntelliJ werkt moet je asap een [GitIgnore file](08_gitignore.md) file toevoegen aan je project.
-* Maak in de root van je project een nieuwe file met naam .gitignore. 
+* Als je met IntelliJ werkt moet je asap een .gitignore file toevoegen aan je project. zie  [GitIgnore file](08_gitignore.md)
+* Maak in de root van je project een nieuwe file met naam **.gitignore** (dus de naam start met een puntje). 
 * Git komt vragen of je deze file wil toevoegen in git, dat is OK. 
 * Open deze file en voeg zeker deze 2 lijnen toe:
-```text
-.idea
+```.gitignore
+  .idea
   *.iml
 ```
 * Voor sommige soorten projecten voorziet IntelliJ zelf al een .gitignore file. Je moet wel altijd nog deze 2 lijnen toevoegen. 
-* Dit is nodig omdat we de IntelliJ configuratie zeker niet in git willen toevoegen
+* Dit is nodig omdat we de IntelliJ configuratie zeker niet in git willen toevoegen. 
+Deze folder en file bevatten info voor IntelliJ over je project 
 
 ### Commits toevoegen aan je lokale repository 
 
 * Er zit nog niets in je repository. Geen files (alleen .gitignore en .idea). Geen history.
 * files in je working directory zijn ofwel:
-  * **tracked**: wel gekend door git
-  * **untracked**: niet gekend door git
+  * **tracked**: wel gekend door git (filename in zwart, groen of blauw)
+  * **untracked**: niet gekend door git (filename in het rood)
 * Maak een nieuwe file in je project. 
-  Dit is eerst een untracked file. 
-  Als Git komt vragen of je de files ook aan git wil toevoegen en je zegt OK dan wordt deze file onmiddellijk getracked.   
-* IntelliJ toont untracked files in het rood en new added files in het groen.
-
+  Dit is eerst een untracked file (rood). 
+  Als Git komt vragen of je de files ook aan git wil toevoegen en je zegt OK dan wordt deze file onmiddellijk getracked (groen).   
   ![git_init_intellij_tracked_untracked.png](../images/01_getting_started/git_init_intellij_tracked_untracked.png)
+* kleuren in IntelliJ: 
+  * rood: untracked file
+  * groen: new added file
+  * blauw: file met aanpassingen 
+  * zwart: untouched file 
 
-* Open het Commit window (commit-knopje in de linker marge - of <CTRL>-k)
+
+
+* Open het Commit window (commit-knopje in de linker marge of \<CTRL\>-k)
   
   ![git_init_intellij_commit.png](../images/01_getting_started/git_init_intellij_commit.png)
 
-* selecteer alle files. Typ een commit message. Klik op de Commit button. 
-* Hierdoor gebeurt er achter de schermen een "**git add**" en een "**git commit**".
+* selecteer alle files, ook de Unversioned Files. 
+* Typ een commit message. 
+* Klik op de Commit button. 
+* Hierdoor gebeurt er achter de schermen een "**git add**" (voor de Unversioned Files) en een "**git commit**".
 * Dus je voegt deze aanpassing toe aan de history van deze repo    
 * In het "Git Log tool-window" onderaan zie je al je commits: Je ziet dat er nu 1 commit (snapshot) in de
 repository zit.
@@ -80,10 +88,14 @@ repository zit.
   * In IntelliJ zie je enkel de **eerste 8 chars** hiervan.  
 
 ### Oefening 
-* Check telkens voor-en-na de situatie in het "git commit window" en in het "git log window".
-* Maak een aanpassing in de file en commit
-* Voeg een tweede nieuwe file toe en commit
-* Maak een aanpassing in de tweede file en commit
+
+* **Check** de situatie met "git status" en "git log".
+* Maak een **aanpassing** in de file en commit
+* **Check** de situatie met "git status" en "git log".
+* Voeg een tweede **nieuwe file** toe en commit
+* **Check** de situatie met "git status" en "git log".
+* Maak een **aanpassing** in de tweede file en commit
+* **Check** de situatie met "git status" en "git log".
 
 ---
 [prev](05_git_basis_met_git_bash.md)

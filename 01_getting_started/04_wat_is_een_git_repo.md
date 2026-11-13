@@ -1,10 +1,10 @@
 ## Wat is een Git Repo? 
 
 Om een idee te krijgen wat een repo is kijken we even rond in deze **Git Repo [gitoefeningen](../README.md) op GitHub**. 
-* een git repo bevat gewoonlijk [Wat is md?](../999_allerlei/wat_is_md.md) (code is altijd plain text)
+* een git repo bevat gewoonlijk [plain text files](../999_allerlei/wat_is_plain_text.md) (code is altijd plain text)
 * de files zijn gestructureerd in **directories** (folders)
 * je kan een file openklikken in github om de content te zien   
-* Github gebruikt de file **[gitoefeningen](../README.md)** als info voor deze repo
+* Github gebruikt de file **[README.md](../README.md)** als info voor deze repo
 * in de **[GitIgnore file](08_gitignore.md)** file staat welke files en directories nooit aan deze repo mogen toegevoegd worden  
 * in Github  kan je gemakkelijk **zoeken** in alle files van een repo (Search of jump to...)
   
@@ -27,8 +27,8 @@ Om een idee te krijgen wat een repo is kijken we even rond in deze **Git Repo [g
 
 ![branches_in_github.png](../images/01_getting_started/branches_in_github.png)  
 
-* Deze repo staat nu op GitHub. [Connecteer met bestaande repo op Github](../03_github/03_connect_with_existing_github_repo.md) zet je deze files ook op je eigen computer.
-* Maar eerst leren we nog een paar basis begrippen [next](05_git_basis_met_git_bash.md)   
+* Deze repo staat nu op GitHub. **Straks** zet je deze files ook op je eigen computer. ([Connecteer met bestaande repo op Github](../03_github/03_connect_with_existing_github_repo.md) )
+* Maar eerst leren we nog een paar basis begrippen  
 
 
 ---

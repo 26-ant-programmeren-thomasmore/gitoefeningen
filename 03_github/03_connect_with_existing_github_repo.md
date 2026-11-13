@@ -1,15 +1,15 @@
 ## Connecteer met bestaande repo op Github 
 
 * Hoe krijg je een repo die op github staat op je eigen computer? 
-    * Optie 1: download als zip
+    * Optie 1: met **git clone**
+      * je maakt dan een lokale git repo die verbonden blijft met de repo op github 
+      * de repo op github is de **remote repository**
+      * de repo op je eigen computer is de **local repository**
+    * Optie 2: download als zip
         * dat gaan we **niet** doen
         * **Doe dit nooit!** 
         * je verliest dan alle meta-data (extra informatie over het project zoals de history)
         * **Doe dit nooit!**
-    * Optie 2: met **git clone**
-      * je maakt dan een lokale git repo die verbonden blijft met de repo op github
-      * de repo op github is de **remote repository**
-      * de repo op je eigen computer is de **local repository**
 * wat is git clone? 
     * dit commando maakt een lokale git repo die verbonden blijft met de repo op github
     * alle meta-data van de repo (zoals de history) blijft behouden in de lokale repo.   
@@ -17,7 +17,7 @@
     * de repo op je eigen computer is de **local repository**
 
 ### git clone deze repo (gitoefeningen)
-* we maken een local repo (op je computer) die verbonden is met de repo die je nu aan het lezen hebt (gitoefeningen) 
+* we maken een local repo (op je computer) die verbonden is met de repo die je nu aan het lezen hebt (**gitoefeningen**) 
 * Doe dit in een directory die geen git-repo is 
 
 |let op: nest geen repositories| 

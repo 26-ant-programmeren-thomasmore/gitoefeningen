@@ -3,11 +3,12 @@
 ### Push 
 
 * Je local repo is nu geconnecteerd met een remote repo op Github
-* push = van waar je aan het werken bent NAAR GitHub 
-* Je kan nu de **commits** van je local repo **pushen** naar de remote repo
+* push = local repo naar remote repo op GitHub. 
+* Dus van waar je aan het werken bent NAAR GitHub 
+* Je kan de **commits** van je local repo **pushen** naar de remote repo
 * let op: dit kan alleen als je rechten hebt op de remote repo
-  * dus als je mijn repo gecloned hebt dan kan je dit niet doen
-  * je kan wel mijn remote repo [Fork](06_fork.md) op Github
+* dus: als je mijn repo gecloned hebt dan kan je dit niet doen
+
 
 
 #### in Git Bash:
@@ -27,7 +28,7 @@ git push
 * gebruik het push symbool in de toolbar 
 
   ![img.png](../images/03_github/push.png)
-* of: <CTRL>-<SHIFT>-k
+* of: \<CTRL\>-\<SHIFT\>-k
 * of: in het git-tool-window onderaan selecteer je de huidige branch, rechts-klik en kies Push 
 * Je ziet nu je files op je remote repo op Github
 
@@ -40,6 +41,7 @@ git push
 
 ### Pull
 
+* pull = van remote repo op GitHub naar local repo 
 * pull = van GitHub NAAR waar je aan het werken bent  
 * resultaat: je ziet de aanpassingen in je code die gepushed waren naar GitHub 
 
@@ -52,7 +54,7 @@ git pull
 
 
 #### in IntelliJ:
-* IntelliJ noemt dit "Update" in plaats van "Pull" (jammer genoeg)
+* IntelliJ noemt dit "Update" in plaats van "Pull" 
 * Je ziet nu de aanpassingen in de files op je lokale repo in IntelliJ 
 
 
@@ -66,10 +68,10 @@ git pull
   * check op GitHub 
 * **IntelliJ-2**
   * check: de code is niet veranderd
-  * check: de git-hi/story is niet veranderd
+  * check: de git-history is niet veranderd
   * selecteer de branch en Update 
   * check: de code is WEL veranderd
-  * check: de git-hi/story is WEL veranderd
+  * check: de git-history is WEL veranderd
 * Je kan deze oefening ook met 2 personen (op 2 laptops) doen ipv met 2 repositories op 1 laptop
 
 ### Fetch 
@@ -91,10 +93,10 @@ git pull
   * check op GitHub
 * **IntelliJ-2**
   * check: de code is niet veranderd
-  * check: de git-hi/story is niet veranderd
+  * check: de git-history is niet veranderd
   * Fetch all Remotes 
   * check: de code is NIET veranderd
-  * check: de git-hi/story is WEL veranderd
+  * check: de git-history is WEL veranderd
   * je ziet naast de (locale) branch een pijltje en een indicatie dat er incoming changes zijn!  
   * selecteer de branch en Update
   * check: de code is WEL veranderd

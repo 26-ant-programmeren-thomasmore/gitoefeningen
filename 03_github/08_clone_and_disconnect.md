@@ -1,10 +1,17 @@
 ## Clone en disconnect 
 
+### Waarom: startcode 
 * Voor sommige programmeer projecten zullen we je vragen om 
-  * een repository uit Github te clonen, 
-  * disconnecteren van de remote repo 
-  * en connecteren met je eigen Github repo.  
-* Dit zal bvb gebeuren als we start code voor een oefening of toets op Github zetten waarop je moet verder werken. 
+  * een repository uit Github te clonen 
+  * disconnecteren van de remote repo (dit zal de docent expliciet vragen indien nodig)
+  * en connecteren met je eigen Github repo 
+* Dit zal bvb gebeuren als:
+  * docent zet start code voor een oefening op Github
+  * je werkt zelf de oefening uit en commit regelmatig 
+  * je pusht je oplossing naar je eigen Github repo 
+  * dit doen we vooral voor grotere stap-voor-stap oefeningen, waar de oplossingen ook stap voor stap gecommit worden 
+
+### Hoe
 * Wat moet je doen: 
   * **Stap 1: Clone** 
     * Open IntelliJ en voer het volgende uit: 
@@ -26,6 +33,13 @@
     * Push op die nieuwe repository alvast de branch die je net binnenhaalde. Check dit in
       github.
 
+### Oplossingen 
+* als de docent later de oplossingen van de oefeningen pusht
+  * dan kan je die in dit geval **niet pullen**, want je repo is losgekoppeld van de repo van de docent
+  * Dit zou ook conflicten geven, want jouw oplossingen staan in dezelfde files als de oplossingen van de docent 
+  * Je maakt dan een 2e clone van de repo van de docent waar je de oplossingen kan binnenhalen
+  * Je kan de 2 projecten openenen in IntelliJ en de code vergelijken
+
 ### Oefening
 * Maak een test-repository aan op GitHub.
 * Clone deze via IntelliJ naar een nieuwe lokale map (Stap 1).
@@ -35,4 +49,4 @@
 
 ---
 [prev](07_github_pages.md)
-[next](../04_collaboration_tool/01_simpele_workflow.md)
+[next](09_clone_met_2_remotes.md)
