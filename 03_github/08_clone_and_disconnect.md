@@ -8,7 +8,7 @@
 * Wat moet je doen: 
   * **Stap 1: Clone** 
     * Open IntelliJ en voer het volgende uit: 
-    * File ? New ? Project from Version Control...,
+    * File > New > Project from Version Control...,
     * kopieer de github repository die hierboven staat
     * kies een map waarin je dat project wenst te plaatsen, en kies Clone.
     * Check welke branch je nodig hebt en maak deze  branch actief in je project.
@@ -16,10 +16,10 @@
     * Ga naar github 
     * maak een nieuwe lege **private** repository, bvb advanced_toets1 of
       advanced_toets2. Deze moet **geen** files bevatten.
-    * nodig je docent uit als collaborator voor je repository (Settings ? Collaborators ? Add people)
+    * nodig je docent uit als collaborator voor je repository (Settings > Collaborators > Add people)
   * **Stap 3: Disconnecteer de local repo**  
     * Koppel jouw local repo los van github: 
-    * Git ? Manage Remotes..., selecteer de github-repository en klik op de –
+    * Git > Manage Remotes..., selecteer de github-repository en klik op het min-icoon (-)
   * **Stap 4: Connecteer met je eigen remote Repo**
     * Koppel je local repo nu aan je eigen project: klik op de +
     * URL: de url van je eigen repo op github 
@@ -27,6 +27,11 @@
       github.
 
 ## Oefening
+* Maak een test-repository aan op GitHub.
+* Clone deze via IntelliJ naar een nieuwe lokale map (Stap 1).
+* Koppel de remote los via **Manage Remotes** (Stap 3).
+* Maak een tweede lege repository aan op GitHub en koppel je lokale repo hieraan (Stap 4).
+* Push je code naar de nieuwe repository en verifieer het resultaat op GitHub.
 
 ---
 [prev](07_github_pages.md)

@@ -1,8 +1,8 @@
 # History 
 
-## In Git Bash: 
+## In Git Bash:
 *  met het command "git log" kan je al je commits bekijken
-```
+```bash
   cd gittest
   git status
   git log
@@ -17,8 +17,8 @@
     * changes in working directory vergeleken met de gekozen commit
   * git diff \<commithash> \<commithash>
     * changes tussen 2 commits
-* probeer dit uit:     
-  ```
+* probeer dit uit:
+```bash
   cd gittest
   git status
   git log
@@ -37,10 +37,10 @@
 
 * Noot: na een aantal commits wordt de log lang. Heel lang.
   * Als de log langer is dan je bash-window zal het stoppen en zie je een :
-  * Nu kan je een <blank> tikken om verder te gaan en de rest an de log te zien
-  * Of je kan een �q� tikken om te stoppen
-  * Extra info: Git gebruikt het bash-command �less� om de log te tonen. 
-    Er zijn nog veel meer navigatie mogelijkheden. Type �less --help�
+  * Nu kan je een <blank> tikken om verder te gaan en de rest van de log te zien
+  * Of je kan een 'q' tikken om te stoppen
+  * Extra info: Git gebruikt het bash-commando 'less' om de log te tonen. 
+    Er zijn nog veel meer navigatie mogelijkheden. Typ 'less --help'
 
 
 ## In IntelliJ: 

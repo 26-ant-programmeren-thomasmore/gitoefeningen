@@ -20,7 +20,7 @@
 * zolang jouw changes en de andere changes op verschillende lijnen zijn is er geen probleem 
 * we zeggen dat deze ***file gemerged** is: **git heeft een extra aanpasssing gedaan in jouw file**, tussen jouw aanpassingen  
 * git doet automatisch een commit voor dit soort merge. De message is iets als:
-```
+```text
 Merge branch 'master' of https://github.com/verapeeters-thomasmore/test
 ```
 * Je krijgt de mogelijkheid om deze message aan te passen in de default editor (zie [Installeer Git](../01_getting_started/02_installeer_git.md)).

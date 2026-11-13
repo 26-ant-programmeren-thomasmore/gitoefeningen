@@ -17,16 +17,16 @@
 * Mac: 
   * Best via de Homebrew package manager 
   * Installeer xcode command line tools - in terminal:    
-    ```xcode-select –install```    
+    `xcode-select --install`    
   * en volg de instructies 
   * Installeer homebrew - in terminal (op 1 lijn): 
-    ```/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
+    `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
   * Installeer git -- in terminal: 
-    ```brew install git```
+    `brew install git`
     
 ## Configureer git 
 * * In Git Bash (Windows) of terminal (Mac) typ je:
-```
+```bash
 git config --global user.name "<jouw naam>"
 git config --global user.email <jouw e-mailadres>
 git config --global init.defaultbranch main
@@ -39,9 +39,9 @@ Wat is dit?
   * vroeger was naam van de default branch altijd master. Een paar jaar geleden is dit een verboden woord geworden en sindsdien beveelt git aan om dit woord niet meer te gebruiken. De nieuwe conventie is om als default naam "main" te gebruiken. 
 * noot: values met een spatie of een ander special character zet je altijd tussen dubbele quotes
 * check dit:
-  ```git config –global -l```
+  `git config --global -l`
 * als je iets fout gezet hebt:
-  ```git config –global -replace-all user.name "<new Name>"```
+  `git config --global --replace-all user.name "<new Name>"`
 
 
 

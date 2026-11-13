@@ -31,14 +31,14 @@
 ### in Git Bash: 
 * Ga naar je project folder  
 * Noot: het “git clone” commando zal hier een nieuwe sub-directory aanmaken.
-```
+```bash
 cd c:/Projects
 git clone <repository-url>
 ```
 * Als je een tweede parameter meegeeft dan wordt dat de naam van de nieuwe directory:
-````
-git clone <repo-url> testGithub”
-````
+```bash
+git clone <repo-url> testGithub
+```
 * Git heeft een directory aangemaakt en alle files van de Github-repository naar je lokale
 computer gecopieerd. Check de inhoud van je lokale repository.
 

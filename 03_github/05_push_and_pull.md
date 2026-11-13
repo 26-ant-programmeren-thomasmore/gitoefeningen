@@ -12,13 +12,13 @@
 
 ### in Git Bash:
 * Noot: de eerste keer dat je push doet voor een (branch in een) remote repo moet je extra parameters meegeven:
-```
+```bash
 git push -u origin main 
 ```
 * Noot: main is de default branch in mijn project - gebruik hier master als dat jouw default branch is
 * Je ziet nu je files op je remote repo op Github
 * de volgende keer moet je de extra argumenten niet meer meegeven
-```
+```bash
 git push
 ```
 
@@ -45,7 +45,7 @@ git push
 
 ### in Git Bash:
 * de repo (en deze branch) is al geconnecteerd met GitHub
-```
+```bash
 git pull  
 ``` 
 * Je ziet nu de aanpassingen in de files op je lokale repo 

@@ -27,8 +27,8 @@ committen.
 * Example gitignore files: https://github.com/github/gitignore
 * Bvb een typische .gitignore file voor een **java** project voor een developer die met Jetbrains
 **Intellij** werkt:
-    ```
-    .idea
+```gitignore
+.idea
     *.iml 
     *.class
     *.log

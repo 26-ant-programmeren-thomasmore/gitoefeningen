@@ -26,11 +26,11 @@ IntelliJ ziet dat je project nu geinitialiseerd is voor git.
 Dit verandert wel veel voor je project in de user interface van IntelliJ: 
 ![img.png](../images/01_getting_started/git_init_intellij_result.png)
 
-* Je ziet in het menu bovenaan dat de �**branch main**� actief is. In het eerste deel van deze bundel werken we met 1 branch
+* Je ziet in het menu bovenaan dat de **branch main** actief is. In het eerste deel van deze bundel werken we met 1 branch
 (main of master). Hierover later meer.
 * noot: je default branch heet normaal gezien main als je de configuratie goed gedaan hebt na de [Installeer Git](02_installeer_git.md)   
-* In het "Git Tool Window" onderaan zie je: �No changes committed.�: dit betekent dat we nog geen commits gedaan hebben.
-* We noemen je directory de �**working directory**�.
+* In het "Git Tool Window" onderaan zie je: "No changes committed.": dit betekent dat we nog geen commits gedaan hebben.
+* We noemen je directory de **working directory**.
 * Een **commit** is een **snapshot** van de working directory: daar zit alle info in waarmee je terug kan gaan naar de situatie op het moment van de commit. 
 
 | je hebt nu een lokale git repository | 
@@ -41,8 +41,8 @@ Dit verandert wel veel voor je project in de user interface van IntelliJ:
 * Maak in de root van je project een nieuwe file met naam .gitignore. 
 * Git komt vragen of je deze file wil toevoegen in git, dat is OK. 
 * Open deze file en voeg zeker deze 2 lijnen toe:
-```
-  .idea
+```text
+.idea
   *.iml
 ```
 * Voor sommige soorten projecten voorziet IntelliJ zelf al een .gitignore file. Je moet wel altijd nog deze 2 lijnen toevoegen. 
@@ -66,7 +66,7 @@ Dit verandert wel veel voor je project in de user interface van IntelliJ:
   ![git_init_intellij_commit.png](../images/01_getting_started/git_init_intellij_commit.png)
 
 * selecteer alle files. Typ een commit message. Klik op de Commit button. 
-* Hierdoor gebeurt er achter de schermen een "**git add**" en een "**git commit**
+* Hierdoor gebeurt er achter de schermen een "**git add**" en een "**git commit**".
 * Dus je voegt deze aanpassing toe aan de history van deze repo    
 * In het "Git Log tool-window" onderaan zie je al je commits: Je ziet dat er nu 1 commit (snapshot) in de
 repository zit.
@@ -75,12 +75,12 @@ repository zit.
   ![git_init_intellij_log.png](../images/01_getting_started/git_init_intellij_log.png)
 
   
-* De �**commithash**� is een unieke id voor de commit van 40 characters lang
+* De **commithash** is een unieke id voor de commit van 40 characters lang
   * Bvb: ab4cbe9baa470609fb277047a26db4a7eaaa3c52.  
   * In IntelliJ zie je enkel de **eerste 8 chars** hiervan.  
 
 ## Oefening 
-* Check telkens voor-en-na de situatie in het �git commit window� en in het �git log window�.
+* Check telkens voor-en-na de situatie in het "git commit window" en in het "git log window".
 * Maak een aanpassing in de file en commit
 * Voeg een tweede nieuwe file toe en commit
 * Maak een aanpassing in de tweede file en commit

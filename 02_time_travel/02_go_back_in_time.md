@@ -5,8 +5,8 @@
 * Je gaat dan terug naar de status van je working directory zoals die was op het moment van die commit.
 * let op: dit kan je niet doen als je working dir dirty is. Zorg er dus voor dat alle aangepaste files eerst gecommit zijn (of rollbacked) 
 
-### In Git Bash: 
-  ```
+### In Git Bash:
+```bash
   cd gittest
   git status
   git log
@@ -18,7 +18,7 @@
 * Bekijk de inhoud van je working directory (de files) 
 * In de “git log” zie je nu alleen de commits tot en met de gekozen commit.
 * Met het volgende commando kan je alle commits zien zelfs al is de laatste commit niet in je viewpoint: 
-```
+```bash
 git log --all --graph --decorate
 ```
 
@@ -44,15 +44,14 @@ git log --all --graph --decorate
 ![checkout_head_na_commit.png](../images/02_time_travel/checkout_head_na_commit.png)
 
 * Na de “git checkout \<commithash>” zie je in git bash deze boodschap:
-
-```
+```text
 You are in 'detached HEAD' state. You can look around, make experimental changes
 and commit them, and you can discard any commits you make in this state without
 impacting any branches by performing another checkout.
 ```
 
-* Als je het command "git status" nu gebruikt zie je : 
-```
+* Als je het command "git status" nu gebruikt zie je :
+```text
 HEAD detached at 001961a
 ```
 
@@ -76,7 +75,7 @@ of the “next commit” is “already taken”).
 ![checkout_head_na_commit.png](../images/02_time_travel/checkout_head_na_commit.png)
 
 ### in Git Bash:
-```
+```bash
 git checkout main
 ```
 

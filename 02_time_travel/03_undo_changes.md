@@ -6,10 +6,9 @@
 * Je wil terug naar de situatie van de laatste commit.
 
 
-### In Git Bash 
-* doe een checkout van de laatste commit: 
-
-```
+### In Git Bash
+* doe een checkout van de laatste commit:
+```bash
     cd gittest
     git status
     <pas de file aan>
@@ -31,8 +30,7 @@
 
 ### In Git Bash
 * gebruik het commando "**git reset HEAD**"
-
-```
+```bash
     cd gittest
     git status
     <pas de file aan>
@@ -57,13 +55,13 @@
 
 ### In Git Bash
 * gebruik het commando "**git reset HEAD~**"
-```
+```bash
     cd gittest
     git status
     <pas file aan>
     git status
     git add <file>
-    git commit -m “<zet hier de commit message>”
+    git commit -m "<zet hier de commit message>"
     git status
     git log
     <we willen nu de gecommitte aanpassingen rollbacken:> 

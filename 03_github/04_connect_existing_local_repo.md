@@ -29,8 +29,8 @@
 * connecteer je local repo met de nieuwe repo op Github
 * check eerst de [GitIgnore file](../01_getting_started/08_gitignore.md) op je local repo!
 
-### in Git Bash: 
-```
+### in Git Bash:
+```bash
 git remote -v
 git remote add origin <URL-VAN-GITHUB-REPO>
 git remote -v
