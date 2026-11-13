@@ -1,16 +1,16 @@
-## Branches 
+# Branches 
 
-| Zorg ervoor dat je eerst de [Wat is Git?](../01_getting_started/01_wat_is_git.md) begrijpt| 
+| Zorg ervoor dat je eerst de [basisbegrippen](../01_getting_started/01_wat_is_git.md) begrijpt| 
 |---|
 
-### Wat is een branch? 
+## Wat is een branch? 
 * Tot nu toe hebben we op 1 branch gewerkt: de default branch main (of master) 
 * Dat wil zeggen: een commit wordt toegevoegd bovenop deze default branch
 * Als je een nieuwe branch maakt en activeert (checkout)
   * dan worden commits toegevoegd bovenop deze nieuwe branch
   * je ziet deze commits dus niet meer in de default branch   
 
-### Hoe werken we met branches? 
+## Hoe werken we met branches? 
 * typisch werk je elke feature af op een branch.
   * als je de branch van **feature1** actief maakt (checkout)
       * dan zie je enkel de code die gecommit is voor feature1 (en ouder) 
@@ -24,13 +24,13 @@
   * als je nu de default branch (main of master) actief maakt (checkout)
       * dan zie je ook hier de code die gecommit is voor feature1 (en ouder)
       * in git log zie je nu ook de commits van feature1   
-* dezelfde merge-principes gelden als bij [Merges](../04_collaboration_tool/02_merges.md)
+* dezelfde merge-principes gelden als bij [pull-push](../04_collaboration_tool/02_merges.md)
 * let op: maak een branch per feature, niet per persoon
 
 | branch features, not persons |
 |---|
 
-### Waarom werken we met branches?
+## Waarom werken we met branches?
 * werken met verschillende branches is iets complexer, maar geeft wel meer **flexibiliteit**
 * je houdt de default branch stabiel: 
   * hierop komen alleen de features die helemaal klaar zijn (en getest). 
@@ -43,6 +43,6 @@
 
 
 ---
-[prev](../04_collaboration_tool/05_share_code_between_2_computers.md)
+[prev](../04_collaboration_tool/04_conflicten_best_practices.md)
 [next](02_branches_voorbeelden.md)
 
