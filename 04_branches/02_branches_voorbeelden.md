@@ -5,7 +5,7 @@
 * In deze repo vind je verschillende branches
 * bekijk eerst de branches op Github: 
 
-![img.png](../images/05_branches/github_branch_main.png)
+![img.png](../images/04_branches/github_branch_main.png)
 * Je ziet: 
   * de default branch (main) is actief. 
   * dus als we op github naar de ([markdown](../999_allerlei/wat_is_md.md)) code kijken zien we de code zoals ze in deze branch zit.
@@ -17,11 +17,11 @@
   * deze uitleg is alleen gecommit in branch **the_first_branch**
 * Kijk in Github naar de History (git log)    
   
-  ![img.png](../images/05_branches/github_branch_history.png)
+  ![img.png](../images/04_branches/github_branch_history.png)
   * Je ziet dan alleen de commits voor de geselecteerde branch 
   * Ik heb hier links de history van de main branch geopend en rechts de history van the_first_branch
   
-  ![img.png](../images/05_branches/github_branch_different_histories.png)
+  ![img.png](../images/04_branches/github_branch_different_histories.png)
 
   * de laatste gemeenschappelijk commit in de 2 branches is 37b51d8: "move image in images folder"
   * deze commit was "actief" (checkout) op het moment dat ik de branch gemaakt heb    

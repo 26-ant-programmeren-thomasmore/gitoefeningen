@@ -42,4 +42,4 @@ in een andere folder dan degene waarin je zelf gewerkt hebt.
 
 ---
 [prev](08_clone_and_disconnect.md)
-[next](../04_collaboration_tool/01_simpele_workflow.md)
+[next](../04_branches/01_branches.md)

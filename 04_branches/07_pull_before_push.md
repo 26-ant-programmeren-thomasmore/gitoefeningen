@@ -8,7 +8,7 @@
 
 ## Solve Conflict
 
-* Hiervoor gebruiken we hetzelfde principe als [pull before push](../04_collaboration_tool/04_conflicten_best_practices.md)
+* Hiervoor gebruiken we hetzelfde principe als [pull before push](../05_collaboration_tool/04_conflicten_best_practices.md)
 * Dit principe gebruik je steeds als je van een "meer lokale" branch naar een "meer algemene" branch gaat
   * meer lokale branch = waarop je developt -- bvb feature branch  
   * meer algemene branch = waar je de code opzet als development klaar is -- bvb main (of dev)  
@@ -73,4 +73,5 @@
 
 ---
 [prev](06_merge_with_conflicts.md)
+[next](../05_collaboration_tool/01_simpele_workflow.md)
 

@@ -7,7 +7,7 @@
 * Clone de repo zodat die lokaal op je machine staat  
 * Open de Git tab in de IntelliJ Tool windows
 
-![img.png](../images/05_branches/intellij_current_branch.png)
+![img.png](../images/04_branches/intellij_current_branch.png)
 
 * In IntelliJ zie je rechts onderaan dat branch main actief is  
 * In het linker deel zie je welke branches gekend zijn: 
@@ -28,17 +28,17 @@
 * Checkout: maak een branch actief
 * click op de naam van de actieve branch rechts onder, selecteer de branch die je wil en kies "Checkout"
 
-![img.png](../images/05_branches/intellij_branch_checkout.png)
+![img.png](../images/04_branches/intellij_branch_checkout.png)
   
 * De actieve branch is nu the_first_branch: 
 
-![img.png](../images/05_branches/intellij_branch_different_histories.png)
+![img.png](../images/04_branches/intellij_branch_different_histories.png)
 
 * Of: selecteer de branch in het linker deel van het Git Tool Window
 * Of: selecteer een commit die bovenaan de branch staat, rechts klik, kies "Branch \<naam van de branch>", kies Checkout
 * Let op: er is een verschil tussen checkout van een commit en checkout van een branch.  dat je checkout van een branch doet!  Bij checkout van een commit kom je in DETACHED HEAD.
   
-![img.png](../images/05_branches/intellij_branch_checkout_via_commit.png)
+![img.png](../images/04_branches/intellij_branch_checkout_via_commit.png)
 
 
 ## In Git Bash

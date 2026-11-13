@@ -59,7 +59,7 @@ Dit document definieert de bindende standaarden voor alle Markdown-bestanden bin
 
 ## 6. Mappen- en Bestandsnaamstructuur
 * **Cursusmappen:** Gebruik een tweecijferige nummering met underscore in de root:
-  `01_getting_started/`, `02_time_travel/`, `03_github/`, `04_collaboration_tool/`, `05_branches/`, `999_allerlei/`.
+  `01_getting_started/`, `02_time_travel/`, `03_github/`, `04_branches/`, `05_collaboration_tool/`, `999_allerlei/`.
 * **Cursusbestanden:** Bestanden binnen cursusmappen starten met een tweecijferige nummering:
   `01_wat_is_git.md`, `02_installeer_git.md`, enz.
 * **Projectroot:** In de root van het project bevindt zich als cursusdocument uitsluitend `README.md` (de inhoudsopgave). Bestanden zoals `CONVENTIONS.md` worden uitgesloten van compilatie naar `all_pages.md`.

@@ -24,7 +24,7 @@
   * als je nu de default branch (main of master) actief maakt (checkout)
       * dan zie je ook hier de code die gecommit is voor feature1 (en ouder)
       * in git log zie je nu ook de commits van feature1   
-* dezelfde merge-principes gelden als bij [pull-push](../04_collaboration_tool/02_merges.md)
+* dezelfde merge-principes gelden als bij [pull-push](../05_collaboration_tool/02_merges.md)
 * let op: maak een branch per feature, niet per persoon
 
 | branch features, not persons |
@@ -43,6 +43,6 @@
 
 
 ---
-[prev](../04_collaboration_tool/04_conflicten_best_practices.md)
+[prev](../03_github/09_clone_met_2_remotes.md)
 [next](02_branches_voorbeelden.md)
 

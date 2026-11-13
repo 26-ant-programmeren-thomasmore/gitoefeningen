@@ -7,7 +7,7 @@
 * voor deze oefening [maak je best eerst 2 branches](04_create_branch.md)
 
 ## Simpele merge
-* merging principes zijn hetzelfde als bij [pull](../04_collaboration_tool/02_merges.md):
+* merging principes zijn hetzelfde als bij [pull](../05_collaboration_tool/02_merges.md):
   * simpele merge: alle changes in verschillende files (volledig automatisch)
   * changes in dezelfde file maar op verscihllende lijnen (volledig automatisch)
   * changes in dezelfde file en op dezelfde lijn (conflict)
@@ -29,7 +29,7 @@ git merge <another_branch>
 * als blijkt dat je toch een conflict hebt kan je dit gaan resolven in IntelliJ (of een andere visuele tool)
 
 ## Oefening
-* Dit zijn [merges zonder conflicten](../04_collaboration_tool/02_merges.md)
+* Dit zijn [merges zonder conflicten](../05_collaboration_tool/02_merges.md)
 * merge de branch my_own_branch in the_first_branch
 * push
 * merge de branch another_branch in the_first_branch
@@ -42,7 +42,7 @@ git merge <another_branch>
   * daarna is er een commit in another_branch
   * HEAD staat op de top van another_branch
 
-![img.png](../images/05_branches/new_branches.png)
+![img.png](../images/04_branches/new_branches.png)
 
 ---
 
@@ -52,7 +52,7 @@ git merge <another_branch>
   * daarna is er nog 1 commit in another_branch
   * HEAD staat op de top van the_first_branch (en van my_own_branch)
 
-![img.png](../images/05_branches/simple_merge_after_first_merge.png)
+![img.png](../images/04_branches/simple_merge_after_first_merge.png)
 
 ---  
 
@@ -63,13 +63,13 @@ git merge <another_branch>
     * deze commit is de "parent-commit" van de 2 gemergde branches
   * HEAD staat op de top van the_first_branch
   
-![img.png](../images/05_branches/simple_merge_after_second_merge.png)
+![img.png](../images/04_branches/simple_merge_after_second_merge.png)
 
 ---
 
 * bekijk de changes in de merge-commit: dit is een samenvatting van de changes van de 2 branches
 
-  ![img.png](../images/05_branches/simple_merge_changes.png)
+  ![img.png](../images/04_branches/simple_merge_changes.png)
 
 
 ---

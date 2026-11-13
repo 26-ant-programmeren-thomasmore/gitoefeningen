@@ -29,20 +29,21 @@
 * [Fork](03_github/06_fork.md)
 * [Github Pages](03_github/07_github_pages.md)
 * [Clone en disconnect](03_github/08_clone_and_disconnect.md)
-### Collaboration Tool
-* [Simpele Workflow](04_collaboration_tool/01_simpele_workflow.md)
-* [Merges](04_collaboration_tool/02_merges.md)
-* [Conflicten](04_collaboration_tool/03_conflicten.md)
-* [Hoe voorkom je conflict problemen?](04_collaboration_tool/04_conflicten_best_practices.md)
-* [Hoe code sharen tussen 2 computers?](04_collaboration_tool/05_share_code_between_2_computers.md)
+* [Clone met 2 remotes](03_github/09_clone_met_2_remotes.md)
 ### Branches
-* [Branches](05_branches/01_branches.md)
-* [Branches Voorbeelden](05_branches/02_branches_voorbeelden.md)
-* [Branches in local repo](05_branches/03_branches_local_repo.md)
-* [Maak een branch](05_branches/04_create_branch.md)
-* [Simpele merge](05_branches/05_simple_merge.md)
-* [Merge met conflicten](05_branches/06_merge_with_conflicts.md)
-* [Pull before Push](05_branches/07_pull_before_push.md)
+* [Branches](04_branches/01_branches.md)
+* [Branches Voorbeelden](04_branches/02_branches_voorbeelden.md)
+* [Branches in local repo](04_branches/03_branches_local_repo.md)
+* [Maak een branch](04_branches/04_create_branch.md)
+* [Simpele merge](04_branches/05_simple_merge.md)
+* [Merge met conflicten](04_branches/06_merge_with_conflicts.md)
+* [Pull before Push](04_branches/07_pull_before_push.md)
+### Collaboration Tool
+* [Simpele Workflow](05_collaboration_tool/01_simpele_workflow.md)
+* [Merges](05_collaboration_tool/02_merges.md)
+* [Conflicten](05_collaboration_tool/03_conflicten.md)
+* [Hoe voorkom je conflict problemen?](05_collaboration_tool/04_conflicten_best_practices.md)
+* [Hoe code sharen tussen 2 computers?](05_collaboration_tool/05_share_code_between_2_computers.md)
 
 ## Verder ook nog
 
