@@ -3,27 +3,28 @@
 | CLI = Command Line Interface |
 | --- |
 
-| GUI = Graphical User Interface| 
+| GUI = Graphical User Interface |
 | --- |
 
+### Wat is Git Bash?
 
-* We leren de **basis** van GIT eerst aan met CLI
-  * Gebruik CLI … tot je begrijpt wat je doet…
-  * Later kan je GUI gebruiken - geen nodd, we zullen al heel snel met IntelliJ beginnen werken 
+* Git Bash is een Linux-achtige **Command Line Interface (CLI)** voor Windows.
+* Het wordt standaard meegeleverd wanneer je Git op Windows installeert.
+* Mac-gebruikers gebruiken de ingebouwde **Terminal** in plaats van Git Bash.
+* Tip: als je in de Windows Verkenner rechtsklikt in een map, kan je Git Bash direct in die map openen (*Open Git Bash here*).
+* De meeste Linux-commando's hebben een tegenhanger in de standaard Windows Command Prompt (`cmd`). Nuttige commando's vind je in [Linux en dos commando's](../999_allerlei/linux_en_dos_commandos.md).
 
-* Open nu Git Bash.
-  * Tip: als je in de File Explorer rechts‐klikt kan je Git Bash openen **in deze
-directory**
-  * Dit is een linux‐achtige CLI. De meeste Linux command’s hebben een
-    tegenhanger in een gewone cmd‐dox‐box. Een paar nuttige commando’s vind
-    je in de [Linux en dos commando's](../999_allerlei/linux_en_dos_commandos.md) achteraan in dit document.
-  * je kan de  git-commando's ook uitvoeren in het Terminal tool-window in IntelliJ of in een dos-cmd-box.    
-* Mac user kunnen gewoon een Term gebruiken ipv Git Bash     
+### Hoe werken we in deze cursus?
+
+* In deze cursus geven we bij alle basisbegrippen steeds uitleg en screenshots voor beide manieren:
+  * Met **Git Bash** (CLI): zo zie je welke commando's er onder de motorkap worden uitgevoerd.
+  * Met **IntelliJ** (GUI): zo zie je hoe je dit visueel uitvoert in je IDE.
+* **In de klas oefenen we enkel met IntelliJ.**
+* Wil je toch commando's typen? Je kan Git-commando's ook altijd rechtstreeks uitvoeren in het **Terminal** tool-venster van IntelliJ.
 
 ![git bash](../images/01_getting_started/git_bash.png)
 
 ![this_is_git.png](../images/01_getting_started/this_is_git.png)
-
 
 ---
 [prev](02_installeer_git.md)
