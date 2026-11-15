@@ -16,7 +16,7 @@ Dit document definieert de bindende standaarden voor alle Markdown-bestanden bin
   ```markdown
   ## <Titel>
   ```
-  *(Opmerking: De overkoepelende H1 `# <Sectie>` wordt tijdens de compilatie door `combine_files.sh` gegenereerd op basis van de mapnaam).*
+  *(Opmerking: De overkoepelende H1 `# <Sectie>` wordt tijdens de compilatie door `scripts/combine_files.sh` gegenereerd op basis van de mapnaam).*
 * **Geen witregels vóór H2:** Er mogen geen lege regels of spaties voorafgaan aan de `##`-tekens op regel 1.
 * **Subkoppen:** Gebruik voor tussenkoppen binnen de pagina `###` (H3) en `####` (H4).
 
@@ -29,7 +29,7 @@ Dit document definieert de bindende standaarden voor alle Markdown-bestanden bin
   ```
 * **Exacte 1-op-1 match met H2:** De linktekst `[Titel]` moet **exact** overeenkomen met de `## <Titel>` van het doelbestand (hoofdletters, leestekens en spaties).
   * *Voorbeeld:* Als het doelbestand begint met `## Installeer Git`, dan moet de link `[Installeer Git](01_getting_started/02_installeer_git.md)` zijn.
-  * *Reden:* Hierdoor kan het samenvoegscript `combine_files.sh` de interne anker-slug (`#installeer-git`) direct afleiden uit de linktekst zelf, zonder externe bestandslookups.
+  * *Reden:* Hierdoor kan het samenvoegscript `scripts/combine_files.sh` de interne anker-slug (`#installeer-git`) direct afleiden uit de linktekst zelf, zonder externe bestandslookups.
 
 ---
 

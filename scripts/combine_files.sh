@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+# Navigeer naar de projectroot (bovenliggende map van scripts/)
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+cd "$SCRIPT_DIR/.."
+
 OUTPUT_MD="temp/all_pages.md"
 mkdir -p temp
 rm -f "$OUTPUT_MD"
