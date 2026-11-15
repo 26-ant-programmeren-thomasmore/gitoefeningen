@@ -4,7 +4,7 @@
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$SCRIPT_DIR/.."
 
-OUTPUT_MD="temp/all_pages.md"
+OUTPUT_MD="temp/gitoefeningen.md"
 mkdir -p temp
 rm -f "$OUTPUT_MD"
 
