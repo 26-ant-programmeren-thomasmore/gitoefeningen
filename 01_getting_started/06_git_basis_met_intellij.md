@@ -3,7 +3,7 @@
 ### Open een project in IntelliJ 
 
 * open een bestaand project in IntelliJ  (bvb een java-oefening)
-* TIP: open de juiste directory in IntelliJ! 
+* TIP: [Open de juiste directory in IntelliJ](../999_allerlei/open_de_juiste_directory_in_intellij.md) 
 * als git nog niet geinitialiseerd is op deze directory dan zie je in IntelliJ in de menu niet "Git" maar wel "VCS". 
   En in de toolbar zie je dan geen git symbolen.
 * Noot: VCS betekent "Version Control System"

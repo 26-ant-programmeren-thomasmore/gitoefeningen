@@ -53,6 +53,7 @@
 * [Meest gebruikte git commando's](999_allerlei/git_commandos.md)
 * [Tools](999_allerlei/tools.md)
 * [Tips](999_allerlei/tips.md)
+* [Open de juiste directory in IntelliJ](999_allerlei/open_de_juiste_directory_in_intellij.md)
 * [Best Practices](999_allerlei/best_practices.md)
 
 ---
