@@ -10,6 +10,7 @@
   * je werkt zelf de oefening uit en commit regelmatig 
   * je pusht je oplossing naar je eigen Github repo 
   * dit doen we vooral voor kleinere oefeningen, waar de oplossingen in een aparte folder worden gezet  
+* let op: dit doe je normaal gezien niet in een bedrijfssituatie, daar heb je gewoonlijk 1 remote repo die door verschillende mensen lokaal gecloned wordt
 
 ### Hoe
 * Wat moet je doen: 
