@@ -28,3 +28,5 @@
 | history|  | 		Toon laatste commando’s |
 
 ---
+[prev](git_commandos.md)
+[next](open_de_juiste_directory_in_intellij.md)

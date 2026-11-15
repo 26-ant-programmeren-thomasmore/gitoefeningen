@@ -70,3 +70,6 @@ Kijk naar de bestanden en mappen die direct in de map staan. Dit verschilt per t
 | **JavaScript met npm** | Interactive Webapps | Bevat het bestand `package.json` | De map met `package.json` |
 | **React met Vite en npm** | Frontend single-page apps (o.a. kwartaal 5) | Bevat `package.json` en `vite.config.js` | De map met `package.json` |
 
+---
+[prev](linux_en_dos_commandos.md)
+[next](tips.md)

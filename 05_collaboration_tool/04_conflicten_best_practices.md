@@ -36,11 +36,7 @@
 |---|
 * Kent Beck ([Extreme Programming Explained](https://www.agilealliance.org/glossary/xp))
 
-### Oefening
-* Ik voorzie nog meer oefeningen op mergen na het hoofdstuk branches
-
-
 
 ---
-[prev](03_conflicten.md)
-
+[prev](03_conflicten.md)
+[next](../999_allerlei/best_practices.md)

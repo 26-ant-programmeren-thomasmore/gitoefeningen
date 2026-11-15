@@ -15,3 +15,5 @@
 | branch features, not persons |
 
 ---
+[prev](../05_collaboration_tool/04_conflicten_best_practices.md)
+[next](git_commandos.md)

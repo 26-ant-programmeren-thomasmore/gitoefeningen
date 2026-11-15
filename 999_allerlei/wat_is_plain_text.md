@@ -14,3 +14,4 @@
   * een .exe file is een binary file. Dit is een executable: je computer kan hem uitvoeren. Zelf kan je dit niet lezen.
 
 ---
+[prev](wat_is_md.md)

@@ -15,3 +15,5 @@
 * Tip: installeer in Chrome de extension [markdown reader](https://md-reader.github.io/)
 
 ---
+[prev](tools.md)
+[next](wat_is_plain_text.md)

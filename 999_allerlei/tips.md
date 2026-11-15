@@ -15,3 +15,5 @@ Dit veroorzaakt sync problemen
 * de **root** van je project = de basis directory van je project
 
 ---
+[prev](open_de_juiste_directory_in_intellij.md)
+[next](tools.md)

@@ -29,3 +29,5 @@
 | git checkout \<NAAM VAN DE BRANCH> | checkout: maak een branch actief |
 
 ---
+[prev](best_practices.md)
+[next](linux_en_dos_commandos.md)
