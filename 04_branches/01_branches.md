@@ -43,6 +43,6 @@
 
 
 ---
-[prev](../03_github/10_share_code_between_2_computers.md)
+[prev](../03_github/11_github_in_visual_studio_code.md)
 [next](02_branches_voorbeelden.md)
 

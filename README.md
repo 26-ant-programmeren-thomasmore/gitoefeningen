@@ -31,6 +31,7 @@
 * [Clone en disconnect](03_github/08_clone_and_disconnect.md)
 * [Clone met 2 remotes](03_github/09_clone_met_2_remotes.md)
 * [Hoe code sharen tussen 2 computers?](03_github/10_share_code_between_2_computers.md)
+* [GitHub in Visual Studio Code](03_github/11_github_in_visual_studio_code.md)
 ### Branches
 * [Branches](04_branches/01_branches.md)
 * [Branches Voorbeelden](04_branches/02_branches_voorbeelden.md)
