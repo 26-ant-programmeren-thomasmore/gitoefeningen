@@ -42,6 +42,5 @@
 
 
 ---
-[prev](03_conflicten.md)
-[next](05_share_code_between_2_computers.md)
+[prev](03_conflicten.md)
 

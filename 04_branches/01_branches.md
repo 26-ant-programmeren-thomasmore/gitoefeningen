@@ -43,6 +43,6 @@
 
 
 ---
-[prev](../03_github/09_clone_met_2_remotes.md)
+[prev](../03_github/10_share_code_between_2_computers.md)
 [next](02_branches_voorbeelden.md)
 

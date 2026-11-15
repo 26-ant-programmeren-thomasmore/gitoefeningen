@@ -30,6 +30,7 @@
 * [Github Pages](03_github/07_github_pages.md)
 * [Clone en disconnect](03_github/08_clone_and_disconnect.md)
 * [Clone met 2 remotes](03_github/09_clone_met_2_remotes.md)
+* [Hoe code sharen tussen 2 computers?](03_github/10_share_code_between_2_computers.md)
 ### Branches
 * [Branches](04_branches/01_branches.md)
 * [Branches Voorbeelden](04_branches/02_branches_voorbeelden.md)
@@ -43,7 +44,6 @@
 * [Merges](05_collaboration_tool/02_merges.md)
 * [Conflicten](05_collaboration_tool/03_conflicten.md)
 * [Hoe voorkom je conflict problemen?](05_collaboration_tool/04_conflicten_best_practices.md)
-* [Hoe code sharen tussen 2 computers?](05_collaboration_tool/05_share_code_between_2_computers.md)
 
 ## Verder ook nog
 

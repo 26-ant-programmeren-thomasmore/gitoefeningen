@@ -16,7 +16,7 @@
 * je start een project op je laptop op school met IntelliJ  
   * [Je eerste git repository met IntelliJ](../01_getting_started/06_git_basis_met_intellij.md) van dit project
   * commit al je aanpassingen 
-  * connecteer je project met een [Bestaand locaal project op Github zetten](../03_github/04_connect_existing_local_repo.md)
+  * connecteer je project met een [Bestaand locaal project op Github zetten](04_connect_existing_local_repo.md)
   * push alle commits zodat ze zichtbaar zijn op GitHub
   * laatste versie van de code staat dus op GitHub 
 * thuis 
@@ -27,14 +27,14 @@
   * commit en push als je klaar bent zodat de laatste versie op GitHub staat 
 * naar school 
   * voor je naar school vertrekt open je het project op je laptop 
-  * doe een [Push en Pull](../03_github/05_push_and_pull.md) (van de branches waar je aan gewerkt hebt)
+  * doe een [Push en Pull](05_push_and_pull.md) (van de branches waar je aan gewerkt hebt)
   * de laatste versie van je code staat nu op je laptop
   * op school werk je verder op je laptop 
   * als je klaar bent: commit en push zodat de laatste versie weer op GitHub staat 
 * thuis
   * als je wil verderwerken op je desktop: 
   * open het project
-  * doe een [Push en Pull](../03_github/05_push_and_pull.md) (van de branches waar je aan gewerkt hebt)
+  * doe een [Push en Pull](05_push_and_pull.md) (van de branches waar je aan gewerkt hebt)
   * de laatste versie van je code staat nu op je desktop
   * etc 
   
@@ -52,4 +52,5 @@
   * dit geldt ook voor andere programmeertalen uiteraard 
 
 ---
-[prev](04_conflicten_best_practices.md)
+[prev](09_clone_met_2_remotes.md)
+[next](../04_branches/01_branches.md)
