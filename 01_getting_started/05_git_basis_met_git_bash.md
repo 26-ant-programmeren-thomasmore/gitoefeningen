@@ -7,7 +7,7 @@
     * bvb in de file-explorer
     * je kan dit ook in Git Bash: start op de parent directory, dus de directory waarin je de nieuwe dir wil maken.
     * Ik maak bvb een nieuwe dir "gittest" in de parent dir "c:/Projects/code/git". Dus mijn nieuwe dir is "**c:
-      /Projects/code/git/git_init_mkdir**"
+      /Projects/code/git/gittest**"
 
 ![git_init_mkdir.png](../images/01_getting_started/git_init_mkdir.png)
 
