@@ -3,6 +3,8 @@
 | Git is een versie controle systeem (of source controle systeem). |
 | -----	| 
 
+dit zijn aanpassingen
+
 * Je bouwt een history op van je source code:
   * **Wat** is aangepast in de code door **wie** en **wanneer** en **waarom**
   * Je kan teruggaan naar een vorige versie (voor een bepaalde aanpassing gebeurd is). 
